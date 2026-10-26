@@ -1,0 +1,1637 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>د. مروى ثابت · أخصائية تغذية علاجية</title>
+<meta name="description" content="د. مروى ثابت، أخصائية تغذية علاجية. استشارات تغذية عن بُعد وخطط وجبات من المطبخ اليمني. العافية تشتي أكل.">
+<meta property="og:title" content="د. مروى ثابت · أخصائية تغذية علاجية">
+<meta property="og:description" content="العافية تشتي أكل. استشارات تغذية عن بُعد وخطط من أكلنا اليمني.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="theme-color" content="#1F5A3A">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Markazi+Text:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&family=Gloock&display=swap">
+<style>
+/* Layout: an open editorial page. Calligraphic hero over Yemeni highland terraces; serif headings; hairline rules instead of boxes; Sana'a cues (qamariya arch, gypsum frieze) used sparingly. Light theme by design. */
+:root{
+  color-scheme:light;
+  --bg:#F2F1EB;        /* gypsum paper */
+  --paper:#F7F6F1;
+  --white:#FFFFFF;
+  --ink:#1D2A21;       /* green-black for headings */
+  --text:#34403A;
+  --muted:#6C7770;
+  --line:#D8DACF;
+  --forest:#1F5A3A;    /* primary */
+  --forest-deep:#153F29;
+  --leaf:#6A9A35;
+  --coffee:#6B4429;    /* Yemeni coffee / mud brick */
+  --saffron:#C98A1A;   /* hawaij, qamariya glass */
+  --mint:#E3EBDD;
+  --amber:#B57911; --amber-soft:#F4E8CF;
+  --tomato:#B9472F; --tomato-soft:#F3E0D9;
+  --f-callig:"Aref Ruqaa","Markazi Text",serif;
+  --f-serif:"Markazi Text","Aref Ruqaa",Georgia,serif;
+  --f-latin-display:"Gloock","Markazi Text",Georgia,serif;
+  --f-body:"Vazirmatn","Segoe UI",Tahoma,system-ui,sans-serif;
+  --r:4px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--text);font-family:var(--f-body);font-size:15.5px;line-height:1.8;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--f-serif);color:var(--ink);margin:0;font-weight:600;line-height:1.15;text-wrap:balance}
+p{margin:0}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.wrap{max-width:1180px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+[lang="en"] h1,[lang="en"] h2,[lang="en"] h3{font-family:var(--f-latin-display);font-weight:400;letter-spacing:-.01em}
+
+/* buttons: squared, quiet */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid transparent;border-radius:var(--r);padding:13px 22px;font-weight:500;font-size:15px;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s,color .15s}
+.btn-dark{background:var(--forest);color:#fff}
+.btn-dark:hover{background:var(--forest-deep)}
+.btn-white{background:#fff;color:var(--ink)}
+.btn-white:hover{background:var(--mint)}
+.btn-line{border-color:var(--ink);background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{padding:8px 15px;font-size:14px}
+.btn svg{width:18px;height:18px;flex:none}
+.link{display:inline-flex;align-items:center;gap:8px;font-weight:500;color:var(--forest);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;background:none;border-top:0;border-inline:0;cursor:pointer}
+[dir="rtl"] .flip{transform:scaleX(-1)}
+
+/* prototype switcher */
+.demo{background:var(--ink);color:#C9D6CC;font-size:12.5px}
+.demo .wrap{display:flex;align-items:center;justify-content:center;gap:12px;padding-block:6px;flex-wrap:wrap}
+.seg{display:flex;gap:2px}
+.seg button{border:0;background:none;color:inherit;padding:3px 12px;border-radius:3px;cursor:pointer;font-size:12.5px}
+.seg button[aria-pressed="true"]{background:#fff;color:var(--ink);font-weight:600}
+
+/* brand: qamariya mark + name */
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);min-width:0}
+.brand .qm{width:30px;height:36px;flex:none}
+.brand b{display:block;font-family:var(--f-serif);font-weight:700;font-size:21px;line-height:1.05;white-space:nowrap}
+[lang="en"] .brand b{font-family:var(--f-latin-display);font-weight:400;font-size:19px}
+.brand small{display:block;font-size:11.5px;color:var(--muted);line-height:1.3;white-space:nowrap}
+.lang{border:0;background:none;padding:6px 8px;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink);border-bottom:1px solid transparent}
+.lang:hover{border-color:var(--ink)}
+
+/* gypsum frieze (Sana'a window trim) */
+.frieze{height:14px;background-color:var(--coffee);background-image:conic-gradient(from 135deg at 50% 0,#F7F6F1 90deg,transparent 0);background-size:14px 7px;background-repeat:repeat-x;background-position:0 0}
+.frieze.b{background-image:conic-gradient(from -45deg at 50% 100%,#F7F6F1 90deg,transparent 0);background-position:0 100%}
+
+/* ---------- HERO ---------- */
+.hero{background:var(--paper);position:relative;overflow:hidden}
+.hnav{display:flex;align-items:center;gap:30px;padding-block:20px}
+.hnav nav{display:flex;gap:26px;font-size:14.5px}
+.hnav nav button{border:0;background:none;cursor:pointer;color:var(--text);padding:4px 0;border-bottom:1px solid transparent}
+.hnav nav button:hover{border-color:var(--ink);color:var(--ink)}
+.hnav .end{margin-inline-start:auto;display:flex;gap:14px;align-items:center}
+@media (max-width:960px){.hnav nav{display:none}}
+@media (max-width:440px){.hnav .login span{display:none}.hnav .login{padding:9px 11px}.brand small{display:none}}
+
+.stage{position:relative;height:clamp(440px,47vw,600px);max-width:1320px;margin-inline:auto;padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.word{position:absolute;font-family:var(--f-callig);font-weight:700;color:var(--ink);line-height:1.15;font-size:clamp(70px,12.6vw,184px);white-space:nowrap;margin:0;z-index:1}
+[lang="en"] .word{font-family:var(--f-latin-display);font-weight:400;letter-spacing:-.035em;line-height:.95;font-size:clamp(56px,9.6vw,140px)}
+.lead-block{position:absolute;top:-2%;inset-inline-start:max(16px,env(safe-area-inset-left,0px));z-index:1}
+[lang="en"] .lead-block{top:4%}
+.lead-block .word{position:static}
+.tagline{margin-top:-4px;display:flex;align-items:center;gap:12px;font-size:15px;color:var(--ink)}
+[lang="en"] .tagline{margin-top:14px}
+.tagline .dot{width:7px;height:7px;background:var(--saffron);transform:rotate(45deg);flex:none}
+.tagline i{display:block;width:clamp(50px,10vw,150px);height:1px;background:var(--ink);opacity:.3}
+.word.w2{bottom:21%;inset-inline-end:max(16px,env(safe-area-inset-right,0px));z-index:3}
+[dir="ltr"] .word.w2{bottom:27%}
+.produce{position:absolute;z-index:2;height:auto;pointer-events:none;filter:drop-shadow(0 22px 24px rgb(29 42 33 / .16))}
+[dir="rtl"] .produce{left:27%;width:min(63%,820px);top:4%;transform:scaleX(-1)}
+[dir="ltr"] .produce{width:min(46%,610px);left:4%;top:36%}
+.ring{position:absolute;top:2%;inset-inline-end:max(16px,env(safe-area-inset-right,0px));z-index:3;display:flex;align-items:center;gap:12px;font-size:13px;line-height:1.4;color:var(--ink)}
+.ring .ic{width:46px;height:46px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;color:var(--forest)}
+
+.hill{position:relative;margin-top:calc(clamp(440px,47vw,600px) * -0.12);z-index:4}
+.props{display:block;width:min(94%,1240px);height:auto;margin-inline:auto;position:relative;z-index:2;margin-bottom:-1.4%;filter:drop-shadow(0 16px 12px rgb(10 30 18 / .22))}
+.desk{position:relative;background:linear-gradient(180deg,#2B6E49 0 12px,#174A2F 12px 14px,var(--forest) 14px);padding-top:clamp(26px,3.6vw,46px);display:flex;align-items:flex-end}
+
+.hill-in{position:relative;width:100%;max-width:1320px;margin-inline:auto;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding-inline:max(16px,env(safe-area-inset-left,0px));direction:ltr}
+.hill-copy{max-width:420px;padding-bottom:clamp(28px,4vw,48px);color:#fff;display:grid;gap:18px;justify-items:start}
+[dir="rtl"] .hill-copy,[dir="rtl"] .hero-cards{direction:rtl}
+.hill-copy p{text-wrap:pretty;font-family:var(--f-serif);font-weight:500;font-size:clamp(21px,2.1vw,27px);line-height:1.35;}
+[lang="en"] .hill-copy p{font-family:var(--f-body);font-weight:400;font-size:clamp(18px,1.7vw,21px);line-height:1.5}
+.hero-cards{display:flex;gap:0;align-items:stretch;background:var(--paper)}
+.hcard{width:clamp(180px,17vw,230px);padding:22px 22px 24px;text-decoration:none;color:var(--ink);display:grid;gap:26px;cursor:pointer;border:0;text-align:start;font:inherit;background:var(--paper);border-top:3px solid var(--forest)}
+.hcard+.hcard{border-inline-start:1px solid var(--line);border-top-color:var(--saffron)}
+.hcard:hover{background:#fff}
+.hcard h3{font-size:22px;line-height:1.25}
+[lang="en"] .hcard h3{font-size:20px}
+.hcard>span{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:var(--muted)}
+.hcard>span svg{width:20px;height:20px;color:var(--ink)}
+@media (max-width:820px){
+  .stage{height:auto;display:flex;flex-direction:column;padding-bottom:0}
+  .word,.lead-block,.produce,.ring{position:static}
+  .ring{display:none}
+  [dir] .produce{width:112%;max-width:none;margin-inline:-6%;margin-top:6px;order:3;left:auto;top:auto}
+  .word.w2{order:4;margin-top:-4%;align-self:flex-end;position:relative;z-index:5}
+  .hill{margin-top:-10px}
+  .props{width:104%;margin-inline:-2%}
+
+  .hill-in{flex-direction:column-reverse;align-items:stretch;gap:26px}
+  .hill-copy{max-width:none;padding-bottom:0}
+  .hero-cards{display:grid;grid-template-columns:1fr 1fr}
+  .hcard{width:auto;padding:16px 16px 18px;gap:18px}
+  .hcard h3{font-size:19px}
+}
+
+/* ---------- sections ---------- */
+section.sec{padding-block:clamp(64px,9vw,112px)}
+.label{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;font-weight:600;color:var(--coffee);margin-bottom:16px}
+.label::before{content:"";width:7px;height:7px;background:var(--saffron);transform:rotate(45deg)}
+[lang="en"] .label{text-transform:uppercase;letter-spacing:.1em;font-size:12px}
+.h2{font-size:clamp(36px,4.8vw,60px);max-width:16ch}
+[lang="en"] .h2{font-size:clamp(32px,4.2vw,52px)}
+.sub{font-size:17px;color:var(--muted);max-width:54ch;margin-top:16px}
+.head-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:52px}
+
+/* conditions marquee */
+.conds{display:flex;align-items:center;gap:22px;padding-block:18px;background:var(--white);border-bottom:1px solid var(--line)}
+.conds .lead{flex:none;color:var(--muted);font-size:13.5px;padding-inline-start:max(16px,env(safe-area-inset-left,0px))}
+.marq{flex:1;min-width:0;overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marq-track{display:flex;width:max-content;animation:marq 46s linear infinite}
+[dir="rtl"] .marq-track{animation-name:marq-r}
+.marq:hover .marq-track{animation-play-state:paused}
+.conds b{font-family:var(--f-serif);font-weight:500;font-size:20px;color:var(--ink);display:flex;align-items:center;gap:20px;padding-inline-end:20px;white-space:nowrap}
+[lang="en"] .conds b{font-family:var(--f-body);font-size:15px}
+.conds b::after{content:"";width:6px;height:6px;background:var(--leaf);transform:rotate(45deg)}
+@keyframes marq{to{transform:translateX(-50%)}}
+@keyframes marq-r{to{transform:translateX(50%)}}
+@media (prefers-reduced-motion: reduce){.marq-track{animation:none}}
+
+/* plate in a qamariya arch */
+.plate-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(30px,6vw,84px);align-items:center}
+.arch{position:relative;border-radius:999px 999px var(--r) var(--r);background:var(--white);border:1px solid var(--line);aspect-ratio:5/6;max-width:500px;width:100%;margin-inline:auto;display:grid;place-items:center;direction:ltr}
+.arch::before{content:"";position:absolute;inset:12px;border-radius:999px 999px 2px 2px;border:1px solid var(--line)}
+.arch img{width:84%;height:auto;position:relative;filter:drop-shadow(0 18px 22px rgb(29 42 33 / .16));margin-top:10%}
+.call{position:absolute;background:var(--ink);color:#fff;border-radius:3px;padding:5px 11px;font-size:13px;font-weight:500;display:flex;align-items:center;gap:7px;white-space:nowrap;z-index:2}
+.call i{font-style:normal;font-family:var(--f-serif);font-weight:700;font-size:17px;color:#F2C66B;line-height:1}
+.call.veg{left:2%;top:46%}
+.call.pro{left:54%;top:20%}
+.call.gr{right:4%;bottom:12%}
+.call.hl{right:-4%;top:52%}
+.portions{margin-top:34px;border-top:1px solid var(--ink)}
+.portion{display:grid;grid-template-columns:78px 1fr;gap:18px;padding-block:20px;border-bottom:1px solid var(--line);align-items:baseline}
+.portion b{font-family:var(--f-serif);font-size:44px;font-weight:600;color:var(--forest);line-height:.8}
+.portion h3{font-size:24px;margin-bottom:2px}
+[lang="en"] .portion h3{font-size:20px}
+.portion p{color:var(--muted);font-size:15px}
+@media (max-width:820px){.plate-grid{grid-template-columns:1fr}.call{font-size:11.5px;padding:4px 8px}.call.hl{right:0}}
+
+/* about */
+.about{background:var(--white);border-block:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(30px,6vw,84px);align-items:center}
+.cred{border-radius:999px 999px var(--r) var(--r)/180px 180px var(--r) var(--r);background:var(--mint);padding:44px clamp(22px,3vw,36px) 30px;display:grid;justify-items:center;gap:14px;max-width:440px;width:100%;margin-inline:auto}
+.cred .qm{width:58px;height:70px}
+.cred h3{font-size:28px}
+[lang="en"] .cred h3{font-size:24px}
+.cred dl{margin:0;width:100%;border-top:1px solid rgb(29 42 33 / .25)}
+.cred dl div{padding-block:13px;border-bottom:1px solid rgb(29 42 33 / .12)}
+.cred dt{font-size:12.5px;color:var(--coffee);font-weight:600}
+.cred dd{margin:2px 0 0;font-family:var(--f-serif);font-size:21px;line-height:1.35;color:var(--ink);font-weight:500}
+[lang="en"] .cred dd{font-family:var(--f-body);font-size:15.5px}
+.about blockquote{margin:0;font-family:var(--f-serif);font-size:clamp(25px,2.6vw,33px);line-height:1.45;color:var(--ink)}
+[lang="en"] .about blockquote{font-family:var(--f-latin-display);font-size:clamp(22px,2.2vw,28px);line-height:1.4}
+.sig{margin-top:24px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.sig b{font-family:var(--f-callig);font-size:34px;color:var(--forest);font-weight:700}
+[lang="en"] .sig b{font-family:var(--f-latin-display);font-weight:400;font-size:26px}
+.pillars{list-style:none;padding:0;margin:34px 0 0;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.pillars li{padding:18px 18px 0 0;font-size:14.5px}
+[dir="rtl"] .pillars li{padding:18px 0 0 18px}
+.pillars li+li{border-inline-start:1px solid var(--line);padding-inline-start:18px}
+.pillars b{display:block;font-family:var(--f-serif);font-size:20px;color:var(--ink);font-weight:600;margin-bottom:4px}
+[lang="en"] .pillars b{font-family:var(--f-body);font-size:15.5px}
+.pillars span{color:var(--muted)}
+@media (max-width:820px){.about-grid{grid-template-columns:1fr}.pillars{grid-template-columns:1fr}.pillars li{border:0!important;padding-inline:0!important;border-bottom:1px solid var(--line)!important;padding-bottom:14px}}
+
+/* calculator */
+.calc-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,64px);align-items:start}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field label,.field .lbl{font-size:13.5px;font-weight:500;color:var(--muted)}
+.field input,.field select,.field textarea{border:0;border-bottom:1.5px solid var(--line);background:transparent;border-radius:0;padding:8px 2px 10px;width:100%;font-size:18px;color:var(--ink)}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--forest);outline:none}
+.field textarea{min-height:96px;resize:vertical;font-size:16px}
+.field.full{grid-column:1/-1}
+.toggle2{display:flex;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.toggle2 button{flex:1;border:0;background:transparent;padding:10px 8px;cursor:pointer;font-size:15px;color:var(--text)}
+.toggle2 button+button{border-inline-start:1px solid var(--line)}
+.toggle2 button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.result{background:var(--forest);color:#fff;border-radius:999px 999px var(--r) var(--r)/260px 260px var(--r) var(--r);padding:84px 32px 32px;display:flex;flex-direction:column;gap:22px;position:relative;overflow:hidden}
+.result .rays{position:absolute;top:0;left:50%;transform:translateX(-50%);width:200px;height:100px;opacity:.9}
+.result .lab{font-size:13.5px;color:#BCD3C2}
+.result .big{font-family:var(--f-serif);font-size:76px;font-weight:600;line-height:.9}
+[lang="en"] .result .big{font-family:var(--f-latin-display);font-weight:400;font-size:68px}
+.result .big small{font-family:var(--f-body);font-size:16px;font-weight:400;margin-inline-start:8px;color:#BCD3C2}
+.result .pair{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgb(255 255 255 / .2)}
+.result .pair div{padding:12px 0}
+.result .pair div+div{border-inline-start:1px solid rgb(255 255 255 / .2);padding-inline-start:16px}
+.result .pair b{font-size:20px;font-weight:500}
+.macro{display:flex;height:6px;gap:3px;margin-top:10px}
+.mleg{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5px;margin-top:10px}
+.mleg span{display:flex;align-items:center;gap:7px}
+.mleg i{width:8px;height:8px;transform:rotate(45deg)}
+.note{font-size:12.5px;color:var(--muted);margin-top:14px}
+@media (max-width:820px){.calc-grid{grid-template-columns:1fr}}
+@media (max-width:420px){.form-grid{grid-template-columns:1fr}}
+
+/* how */
+.how{background:var(--paper);border-top:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;padding:0;margin:0;border-top:1px solid var(--ink)}
+.steps li{padding-top:22px;padding-inline-end:24px}
+.steps li+li{border-inline-start:1px solid var(--line);padding-inline-start:24px}
+.steps .n{font-family:var(--f-serif);font-size:44px;color:var(--saffron);font-weight:600;display:block;line-height:1;margin-bottom:22px}
+.steps h3{font-size:24px;margin-bottom:6px}
+[lang="en"] .steps h3{font-size:20px}
+.steps p{color:var(--muted);font-size:15px}
+@media (max-width:820px){.steps{grid-template-columns:1fr 1fr;row-gap:34px}.steps li{border:0!important;padding-inline:0!important}}
+@media (max-width:480px){.steps{grid-template-columns:1fr}}
+
+/* consultation types: open columns, not boxes */
+.types{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}
+.type{display:flex;flex-direction:column;gap:16px;border-top:3px solid var(--forest);padding-top:22px}
+.type.off{border-top:3px dashed #B9BDB2}
+.type .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.type h3{font-size:34px}
+[lang="en"] .type h3{font-size:30px}
+.type.off h3{color:var(--muted)}
+.type>p{color:var(--muted)}
+.type ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.type li{padding-block:10px;border-bottom:1px solid var(--line);font-size:15px;display:flex;justify-content:space-between;gap:12px}
+.type.off li{color:var(--muted)}
+.type .act{margin-top:6px}
+.pill{display:inline-flex;align-items:center;gap:7px;border-radius:2px;padding:3px 10px;font-size:12.5px;font-weight:500;white-space:nowrap}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pill.ok{background:var(--mint);color:var(--forest)}
+.pill.warn{background:var(--amber-soft);color:var(--amber)}
+.pill.off{background:var(--tomato-soft);color:var(--tomato)}
+.pill.idle{background:var(--bg);color:var(--muted)}
+@media (max-width:760px){.types{grid-template-columns:1fr}}
+
+/* app */
+.appsec{background:var(--white);border-block:1px solid var(--line)}
+.app-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,84px);align-items:center}
+.feat{list-style:none;padding:0;margin:30px 0 34px;border-top:1px solid var(--line)}
+.feat li{display:grid;grid-template-columns:40px 1fr;gap:14px;padding-block:16px;border-bottom:1px solid var(--line)}
+.feat .ic{color:var(--forest)}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:22px}
+[lang="en"] .feat h3{font-size:18px}
+.feat p{font-size:15px;color:var(--muted)}
+.mock{justify-self:center;width:290px;max-width:100%;background:var(--ink);border-radius:42px;padding:10px;box-shadow:0 30px 60px rgb(29 42 33 / .2)}
+.mock .scr{background:var(--bg);border-radius:33px;overflow:hidden;padding:22px 14px 16px;display:grid;gap:9px}
+.mock .hi{font-family:var(--f-serif);font-weight:700;font-size:24px;color:var(--ink);line-height:1.1}
+.mock .mut{font-size:11.5px;color:var(--muted)}
+.mock .bx{background:#fff;border-radius:14px;padding:11px 13px}
+.mock .bx.g{background:var(--forest);color:#fff}
+.mock .row{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px}
+.mock .wt{font-family:var(--f-serif);font-size:32px;font-weight:600;line-height:1}
+.mock .cups{display:flex;gap:4px;margin-top:6px}
+.mock .cups i{flex:1;height:20px;border-radius:3px 3px 6px 6px;background:var(--mint)}
+.mock .cups i.f{background:var(--leaf)}
+.mock img{width:58px;height:58px;flex:none}
+@media (max-width:820px){.app-grid{grid-template-columns:1fr}}
+
+/* stories: columns divided by rules */
+.stories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink)}
+.story{margin:0;padding:26px 26px 0 0;display:flex;flex-direction:column;gap:18px}
+[dir="rtl"] .story{padding:26px 0 0 26px}
+.story+.story{border-inline-start:1px solid var(--line);padding-inline-start:26px}
+.story .res{font-family:var(--f-serif);font-size:42px;font-weight:600;color:var(--forest);line-height:1}
+[lang="en"] .story .res{font-family:var(--f-latin-display);font-weight:400;font-size:36px}
+.story blockquote{margin:0;font-size:16px}
+.story figcaption{margin-top:auto;font-size:13.5px;color:var(--muted)}
+@media (max-width:860px){.stories{grid-template-columns:1fr}.story{padding-inline:0!important;border:0!important;border-bottom:1px solid var(--line)!important;padding-bottom:24px}}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,5vw,72px)}
+.faq{border-top:1px solid var(--ink)}
+.faq details{border-bottom:1px solid var(--line);padding-block:20px}
+.faq summary{cursor:pointer;font-family:var(--f-serif);font-weight:600;font-size:23px;color:var(--ink);list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+[lang="en"] .faq summary{font-family:var(--f-body);font-weight:500;font-size:17px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--f-body);font-weight:300;font-size:26px;line-height:1;color:var(--forest);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq p{color:var(--muted);margin-top:10px;max-width:62ch}
+@media (max-width:820px){.faq-grid{grid-template-columns:1fr}}
+
+/* contact */
+.contact{background:var(--forest-deep);color:#D3E2D7}
+.contact .h2{color:#fff}
+.contact .sub{color:#A4BDAC}
+.contact .label{color:#E7C27A}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,72px)}
+.info{margin-top:36px;border-top:1px solid rgb(255 255 255 / .18)}
+.info-item{display:grid;grid-template-columns:120px 1fr;gap:12px;padding-block:15px;border-bottom:1px solid rgb(255 255 255 / .14);font-size:15px}
+.info-item .k{color:#A4BDAC}
+.info-item .v{color:#fff;font-weight:500}
+.info-item .v.ltr{direction:ltr;unicode-bidi:isolate;text-align:start}
+.cform{background:var(--paper);border-radius:var(--r);padding:clamp(22px,3vw,36px);color:var(--text)}
+.wa-out{margin-top:16px;padding:16px;background:var(--mint);border-inline-start:3px solid var(--forest);display:grid;gap:10px}
+.wa-out b{color:var(--forest)}
+.wa-out pre{margin:0;white-space:pre-wrap;font-family:var(--f-body);font-size:14.5px;background:#fff;padding:12px;user-select:all}
+@media (max-width:820px){.contact-grid{grid-template-columns:1fr}}
+footer{background:var(--forest-deep);color:#8DA897;font-size:13px;border-top:1px solid rgb(255 255 255 / .1)}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:24px}
+.fab{position:fixed;inset-inline-end:max(18px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));width:54px;height:54px;border-radius:50%;background:var(--forest);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px rgb(21 63 41 / .35);z-index:30}
+.fab svg{width:26px;height:26px}
+
+/* ---------- app header ---------- */
+.apphead{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+.apphead .wrap{display:flex;align-items:center;gap:16px;padding-block:10px;max-width:none}
+.apphead .end{margin-inline-start:auto;display:flex;gap:10px;align-items:center}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+
+/* ---------- client portal (app conventions: soft corners) ---------- */
+.portal-bg{padding-block:30px 52px}
+.phone{max-width:430px;margin-inline:auto;background:var(--bg);border:1px solid var(--line);border-radius:30px;box-shadow:0 20px 50px rgb(29 42 33 / .12);overflow:hidden;display:flex;flex-direction:column;min-height:740px}
+.p-top{padding:24px 20px 14px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.p-top h2{font-size:32px;font-weight:700;line-height:1}
+[lang="en"] .p-top h2{font-size:28px}
+.p-top .sub{font-size:13px;color:var(--muted);margin-top:6px}
+.p-body{padding:0 14px 16px;display:grid;grid-template-columns:minmax(0,1fr);gap:10px;flex:1;align-content:start}
+.p-card{border-radius:16px;padding:16px 18px;background:#fff}
+.p-card h3{font-family:var(--f-body);font-size:15.5px;font-weight:600;letter-spacing:0}
+.p-card .hint{font-size:12.5px;color:var(--muted);margin-bottom:12px}
+.next-appt{background:var(--forest);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.next-appt .lab{font-size:12px;color:#BCD3C2}
+.next-appt b{font-family:var(--f-serif);font-weight:600;font-size:21px;display:block;margin-block:2px;line-height:1.3}
+[lang="en"] .next-appt b{font-family:var(--f-body);font-size:16px;font-weight:500}
+.streak{text-align:center;min-width:64px;border-inline-start:1px solid rgb(255 255 255 / .2);padding-inline-start:12px;line-height:1.2}
+.streak b{font-size:30px;font-family:var(--f-serif)}
+.streak span{font-size:11px;color:#BCD3C2}
+.weight-row{display:flex;gap:8px;align-items:center}
+.weight-row input{flex:1;min-width:0;border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:8px;font-family:var(--f-serif);font-size:34px;font-weight:600;text-align:center;color:var(--ink);font-variant-numeric:tabular-nums}
+.stepper{width:48px;height:56px;border-radius:12px;border:1px solid var(--line);background:var(--bg);cursor:pointer;font-size:22px;color:var(--ink)}
+.cups{display:flex;gap:6px;flex-wrap:wrap}
+.cup{width:34px;height:44px;border:0;background:none;padding:0;cursor:pointer;color:var(--line)}
+.cup svg{width:100%;height:100%}
+.cup.full{color:var(--leaf)}
+.cups-count{font-size:12.5px;color:var(--muted);margin-top:8px}
+.upload{display:flex;gap:12px;align-items:center}
+.upload label{border:1.5px dashed var(--line);border-radius:12px;padding:14px;flex:1;text-align:center;cursor:pointer;color:var(--muted);font-size:14px;background:var(--bg);position:relative}
+.upload label:hover{border-color:var(--forest);color:var(--forest)}
+.upload input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.thumb{width:64px;height:64px;border-radius:12px;object-fit:cover;flex:none}
+.moods{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mood{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:10px 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:13.5px}
+.mood svg{width:30px;height:30px}
+.mood[aria-pressed="true"]{border-color:var(--forest);background:var(--mint)}
+.p-card textarea{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:10px;min-height:70px;resize:vertical;margin-top:8px}
+.tabbar{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);background:#fff;position:sticky;bottom:0}
+.tabbar button{border:0;background:none;padding:10px 4px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11.5px;color:var(--muted)}
+.tabbar button svg{width:22px;height:22px}
+.tabbar button[aria-current="true"]{color:var(--forest);font-weight:600}
+.plan-hero{display:flex;gap:14px;align-items:center}
+.plan-hero img{width:88px;height:88px;flex:none}
+.meal{display:grid;grid-template-columns:42px 1fr auto;gap:12px;align-items:center;padding-block:12px;border-bottom:1px solid var(--line)}
+.meal:last-child{border-bottom:0}
+.meal .time{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meal h4{font-family:var(--f-body);font-size:14px;font-weight:600}
+.meal p{font-size:13.5px;color:var(--text);line-height:1.6}
+.meal .kc{font-size:12px;color:var(--leaf);font-weight:500}
+.check{width:28px;height:28px;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);cursor:pointer;display:grid;place-items:center;color:transparent}
+.check[aria-pressed="true"]{background:var(--forest);border-color:var(--forest);color:#fff}
+.check svg{width:16px;height:16px}
+.plan-bar{height:5px;border-radius:99px;background:var(--mint);overflow:hidden;margin-top:8px}
+.plan-bar i{display:block;height:100%;background:var(--forest);transition:width .3s}
+.stats4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.stats4 div{background:#fff;border-radius:14px;padding:10px 6px;text-align:center}
+.stats4 .lab{font-size:11px;color:var(--muted)}
+.stats4 b{font-family:var(--f-serif);font-size:24px;font-weight:600;color:var(--ink);line-height:1.1}
+.chart{width:100%;height:auto;display:block;direction:ltr}
+.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
+.days{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.day{flex:none;border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:8px 10px;cursor:pointer;text-align:center;min-width:58px;font-size:11.5px;line-height:1.4}
+.day b{display:block;font-family:var(--f-serif);font-size:22px;font-weight:600;line-height:1.1}
+.day[aria-pressed="true"]{background:var(--forest);border-color:var(--forest);color:#fff}
+.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.slot{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px;cursor:pointer;font-variant-numeric:tabular-nums}
+.slot[aria-pressed="true"]{border-color:var(--forest);background:var(--mint);color:var(--forest);font-weight:600}
+.slot:disabled{text-decoration:line-through;opacity:.4;cursor:not-allowed}
+.type-switch{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px}
+.type-switch button{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:10px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:500}
+.type-switch button[aria-pressed="true"]{border-color:var(--forest);background:var(--mint);color:var(--forest)}
+.type-switch button:disabled{cursor:not-allowed;color:var(--muted);border-style:dashed}
+.type-switch .pill{font-size:11px}
+.appt-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-block:10px;border-bottom:1px solid var(--line)}
+.appt-row:last-child{border-bottom:0}
+.signin{padding:40px 26px;display:grid;gap:16px;flex:1;align-content:center;text-align:center}
+.signin .qm{width:54px;height:64px;margin-inline:auto}
+.signin h2{font-size:38px}
+.signin input{border:1px solid var(--line);background:#fff;border-radius:12px;padding:13px;font-size:17px;text-align:center;direction:ltr;width:100%}
+.otp{display:flex;gap:8px;justify-content:center;direction:ltr}
+.otp input{width:54px;height:60px;font-size:24px;padding:0;font-family:var(--f-serif);font-weight:600}
+
+/* ---------- dashboard ---------- */
+.admin{display:grid;grid-template-columns:236px minmax(0,1fr);min-height:82vh}
+.side{border-inline-end:1px solid var(--line);background:var(--paper);padding:22px 12px;display:flex;flex-direction:column;gap:2px}
+.side .who{display:flex;gap:10px;align-items:center;padding:4px 10px 18px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.side .who b{display:block;font-family:var(--f-serif);font-size:19px;line-height:1.2;color:var(--ink);font-weight:600}
+[lang="en"] .side .who b{font-family:var(--f-body);font-size:14.5px}
+.side .who span{font-size:12px;color:var(--muted)}
+.side button{border:0;background:none;padding:10px 12px;border-radius:var(--r);cursor:pointer;display:flex;align-items:center;gap:11px;color:var(--muted);font-weight:500;text-align:start;white-space:nowrap;border-inline-start:2px solid transparent}
+.side button svg{width:19px;height:19px;flex:none}
+.side button:hover{color:var(--ink)}
+.side button[aria-current="true"]{color:var(--forest);background:var(--mint);border-inline-start-color:var(--forest)}
+.side .count{margin-inline-start:auto;background:var(--amber);color:#fff;border-radius:2px;font-size:11px;padding:0 6px;line-height:18px}
+.main{padding:30px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px));min-width:0;display:grid;gap:22px;align-content:start}
+@media (min-width:821px){.main{padding-inline:34px}}
+.main h2{font-size:38px}
+[lang="en"] .main h2{font-size:32px}
+.stat-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.stat{padding:16px 18px 18px}
+.stat+.stat{border-inline-start:1px solid var(--line)}
+.stat .lab{font-size:13px;color:var(--muted)}
+.stat b{display:block;font-family:var(--f-serif);font-size:50px;font-weight:600;line-height:1;color:var(--ink);margin-top:6px}
+.stat.warn b{color:var(--amber)}
+.stat.alert b{color:var(--tomato)}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;min-width:0}
+.panel-h{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.panel-h h3{font-size:24px}
+[lang="en"] .panel-h h3{font-size:20px}
+.two{display:grid;grid-template-columns:1.35fr 1fr;gap:16px}
+.q-item{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding-block:13px;border-bottom:1px solid var(--line)}
+.q-item:last-child{border-bottom:0}
+.q-item p{font-size:13.5px;color:var(--muted)}
+.q-item .name{font-weight:600;color:var(--ink)}
+.sched{display:grid;grid-template-columns:58px 1fr;gap:10px;padding-block:11px;border-bottom:1px solid var(--line);align-items:center}
+.sched:last-child{border-bottom:0}
+.sched .t{font-variant-numeric:tabular-nums;font-weight:600;color:var(--forest)}
+.sched b{color:var(--ink);font-weight:600}
+.sched p{font-size:13px;color:var(--muted)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.toolbar input{border:1px solid var(--line);background:#fff;border-radius:var(--r);padding:10px 14px;min-width:0;flex:1 1 220px}
+.chips{display:flex;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.chip{border:0;background:none;padding:8px 14px;cursor:pointer;font-size:13.5px}
+.chip+.chip{border-inline-start:1px solid var(--line)}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+.tbl-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:var(--r)}
+table{width:100%;border-collapse:collapse;min-width:640px}
+th,td{text-align:start;padding:13px 16px;border-bottom:1px solid var(--line);font-size:14px;white-space:nowrap}
+th{font-size:12px;color:var(--muted);font-weight:500;background:var(--paper)}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--paper)}
+tbody tr:last-child td{border-bottom:0}
+.cl{display:flex;align-items:center;gap:10px}
+.cl b{color:var(--ink)}
+.av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:600;color:#fff;background:var(--forest);flex:none;font-size:14px}
+.delta{font-variant-numeric:tabular-nums;font-weight:600;color:var(--muted)}
+.delta.good{color:var(--forest)}
+.templates{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0;border-top:1px solid var(--ink);border-inline-start:1px solid var(--line)}
+.tpl{padding:20px;display:flex;flex-direction:column;gap:12px;border-inline-end:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+.tpl h3{font-size:22px}
+[lang="en"] .tpl h3{font-size:18px}
+.tpl .kcal{font-family:var(--f-serif);font-size:40px;font-weight:600;line-height:1;color:var(--ink)}
+.tpl .kcal small{font-family:var(--f-body);font-size:13px;font-weight:400;color:var(--muted)}
+.tpl .row{display:flex;gap:8px;margin-top:auto}
+.tpl select{flex:1;min-width:0;border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:7px 10px;font-size:13.5px}
+.setting{display:flex;justify-content:space-between;gap:24px;align-items:center;padding-block:18px;border-bottom:1px solid var(--line)}
+.setting:last-child{border-bottom:0}
+.setting h3{font-size:23px}
+[lang="en"] .setting h3{font-size:19px}
+.setting p{font-size:14px;color:var(--muted);max-width:60ch}
+.switch{width:54px;height:30px;border-radius:99px;border:0;background:#C6CBC0;position:relative;cursor:pointer;flex:none}
+.switch::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:inset-inline-start .2s;box-shadow:0 1px 3px rgb(0 0 0 / .2)}
+.switch[aria-checked="true"]{background:var(--forest)}
+.switch[aria-checked="true"]::after{inset-inline-start:27px}
+.setting input{border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:10px 12px;direction:ltr;width:210px;max-width:100%}
+@media (max-width:1000px){.stat-row{grid-template-columns:repeat(2,minmax(0,1fr))}.stat:nth-child(3){border-inline-start:0}.two{grid-template-columns:1fr}}
+@media (max-width:820px){.admin{grid-template-columns:1fr}.side{flex-direction:row;overflow-x:auto;border-inline-end:0;border-bottom:1px solid var(--line);padding:8px max(16px,env(safe-area-inset-left,0px))}.side .who{display:none}.side button{border-inline-start:0}}
+@media (max-width:480px){.setting{flex-direction:column;align-items:flex-start}}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgb(29 42 33 / .35);z-index:40}
+.drawer{position:fixed;top:0;bottom:0;inset-inline-end:0;width:min(450px,100%);background:var(--paper);z-index:41;overflow-y:auto;padding:calc(22px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));display:grid;gap:16px;align-content:start;box-shadow:0 0 40px rgb(29 42 33 / .2)}
+.drawer .hd{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.drawer h3{font-size:28px}
+[lang="en"] .drawer h3{font-size:22px}
+.kv{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.kv div{padding:9px 12px 10px}
+.kv div+div{border-inline-start:1px solid var(--line)}
+.kv .lab{font-size:12px;color:var(--muted)}
+.kv b{font-family:var(--f-serif);font-size:26px;font-weight:600;color:var(--ink);line-height:1.1}
+.drawer textarea{width:100%;border:1px solid var(--line);background:#fff;border-radius:var(--r);padding:10px;min-height:90px}
+.quote{background:#fff;border-inline-start:3px solid var(--saffron);padding:10px 14px;font-size:14.5px}
+.toast{position:fixed;bottom:calc(24px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 20px;border-radius:var(--r);font-size:14px;z-index:60;box-shadow:0 10px 30px rgb(29 42 33 / .25);max-width:calc(100% - 32px);text-align:center}
+
+
+/* ---------- patient file form ---------- */
+.fhead{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.fhead .label{margin-bottom:6px}
+.fprog{min-width:220px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:baseline;font-size:13px;color:var(--muted)}
+.fprog b{font-family:var(--f-serif);font-size:26px;color:var(--forest);line-height:1}
+.fprog i{grid-column:1/-1;height:5px;background:var(--line);display:block}
+.fprog u{display:block;height:100%;background:var(--forest);transition:width .4s}
+.ftabs{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:#fff;border-radius:var(--r);position:sticky;top:calc(env(safe-area-inset-top,0px) + 61px);z-index:6}
+.ftabs button{border:0;background:none;padding:13px 8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;color:var(--muted);font-weight:500;font-size:14.5px;border-bottom:3px solid transparent}
+.ftabs button+button{border-inline-start:1px solid var(--line)}
+.ftabs button svg{width:20px;height:20px;flex:none}
+.ftabs button[aria-selected="true"]{color:var(--forest);border-bottom-color:var(--forest);background:var(--mint)}
+.fbody{display:grid;gap:16px}
+.fpanel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px 22px 22px}
+.fpanel>h3{font-size:24px;padding-bottom:12px;margin-bottom:16px;border-bottom:1px solid var(--ink)}
+[lang="en"] .fpanel>h3{font-size:20px}
+.fgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px}
+.fgrid+.fgrid{margin-top:16px}
+.fgrid.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ff{display:flex;flex-direction:column;gap:6px;min-width:0}
+.ff.full{grid-column:1/-1}
+.ff label,.ff .lbl,.fpanel .lbl{font-size:13px;font-weight:500;color:var(--muted);display:block}
+.fpanel .lbl{margin-bottom:8px}
+.ff input,.ff select,.ff textarea,.fmeal textarea,.flab input,.fmeal-h input{border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:10px 12px;width:100%;font-size:16px;color:var(--ink);min-width:0}
+.ff input:focus,.ff select:focus,.ff textarea:focus,.fmeal textarea:focus,.flab input:focus,.fmeal-h input:focus{outline:none;border-color:var(--forest);background:#fff;box-shadow:0 0 0 3px rgb(31 90 58 / .12)}
+.ff textarea{min-height:84px;resize:vertical;font-size:15px;line-height:1.7}
+.fu{display:flex;align-items:stretch;min-width:0}
+.fu input{border-start-end-radius:0;border-end-end-radius:0;min-width:0}
+.fu span{display:grid;place-items:center;padding:0 10px;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-inline-start:0;border-start-end-radius:var(--r);border-end-end-radius:var(--r);white-space:nowrap}
+.fseg{display:flex;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--paper)}
+.fseg button{flex:1;border:0;background:none;padding:10px 6px;cursor:pointer;font-size:14px;color:var(--text);white-space:nowrap}
+.fseg button+button{border-inline-start:1px solid var(--line)}
+.fseg button[aria-pressed="true"]{background:var(--forest);color:#fff}
+.fseg button:disabled{color:var(--muted);cursor:not-allowed;background:repeating-linear-gradient(-45deg,transparent 0 6px,var(--bg) 6px 12px)}
+.fchips{display:flex;flex-wrap:wrap;gap:8px}
+.fchips button{border:1px solid var(--line);background:var(--paper);border-radius:2px;padding:8px 14px;cursor:pointer;font-size:14px;transition:background .15s,border-color .15s}
+.fchips button[aria-pressed="true"]{background:var(--mint);border-color:var(--forest);color:var(--forest);font-weight:600}
+.fchips button[aria-pressed="true"]::before{content:"✓ "}
+.fres{background:var(--forest);border-color:var(--forest);color:#fff}
+.fres>h3{color:#fff;border-bottom-color:rgb(255 255 255 / .35)}
+.ftiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.ftile{padding:12px 16px 14px;border-bottom:1px solid rgb(255 255 255 / .15);display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+.ftile:not(:nth-child(3n+1)){border-inline-start:1px solid rgb(255 255 255 / .15)}
+.ftile .lab{font-size:12.5px;color:#BCD3C2}
+.ftile b{font-family:var(--f-serif);font-size:38px;font-weight:600;line-height:1}
+.ftile small{font-size:12px;color:#BCD3C2}
+.ftile .pill{margin-top:6px;white-space:normal}
+.fres .pill.ok{background:rgb(255 255 255 / .14);color:#CFE8C2}
+.fneed{color:#BCD3C2}
+.flabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
+.flab{display:grid;grid-template-columns:minmax(0,1fr) 150px 78px;gap:10px;align-items:center;padding-block:9px;border-bottom:1px solid var(--line)}
+.flab label{font-size:14px;color:var(--ink)}
+.flab input{padding:7px 10px;font-size:15px}
+.fstat{text-align:end}
+.fnote{font-size:12.5px;color:var(--muted);margin-top:12px}
+.fmacs{margin-top:18px;border-top:1px solid var(--line)}
+.fmac{display:grid;grid-template-columns:130px minmax(0,1fr) 54px 70px;gap:12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--line)}
+.fmac label{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink)}
+.fmac label i{width:9px;height:9px;transform:rotate(45deg)}
+.fmac input{accent-color:var(--forest);width:100%}
+.fmac b{font-family:var(--f-serif);font-size:22px;color:var(--ink);text-align:end}
+.fmac small{color:var(--muted);text-align:end}
+.fsum{font-size:13.5px;color:var(--forest);padding-top:10px}
+.fsum.bad{color:var(--tomato)}
+.fsugg{margin-top:6px;align-self:flex-start;font-size:13.5px}
+.fmeals{display:grid;gap:14px}
+.fmeal{border-inline-start:3px solid var(--saffron);padding-inline-start:14px}
+.fmeal-h{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.fmeal-h b{font-family:var(--f-serif);font-size:20px;color:var(--ink);flex:1}
+[lang="en"] .fmeal-h b{font-family:var(--f-body);font-size:15px}
+.fmeal-h input[type="time"]{width:auto;padding:6px 8px;font-size:14px}
+.fmeal-h .kc{width:140px;flex:none}
+.fmeal-h .kc input{padding:6px 8px;font-size:15px}
+.fmeal textarea{min-height:58px;resize:vertical;font-size:15px}
+.ftot{margin-top:16px;display:grid;gap:8px;font-size:14px;color:var(--muted)}
+.ftot b{color:var(--ink)}
+.ftot i{height:6px;background:var(--line);display:block}
+.ftot u{display:block;height:100%;transition:width .3s}
+.flogadd{display:grid;grid-template-columns:1fr 1fr auto;gap:14px;align-items:end;margin-bottom:16px}
+.fchart{border:1px solid var(--line);padding:10px;margin-bottom:12px;background:var(--paper)}
+.fchart .chart{max-width:760px;margin-inline:auto}
+.ftable{width:100%;border-collapse:collapse;min-width:0}
+.ftable td{padding:9px 8px;border-bottom:1px solid var(--line);font-size:14px;white-space:nowrap}
+.ftable .dn{color:var(--forest);font-weight:600}
+.ftable .up{color:var(--tomato);font-weight:600}
+.fx{border:0;background:none;color:var(--muted);font-size:20px;cursor:pointer;padding:0 6px;line-height:1}
+.fx:hover{color:var(--tomato)}
+.fbar{position:sticky;bottom:0;z-index:7;display:flex;gap:10px;flex-wrap:wrap;padding:14px 16px calc(14px + env(safe-area-inset-bottom,0px));margin-inline:-16px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-top:1px solid var(--line)}
+.fbar .btn{gap:8px}
+.fbar #fSave{min-width:150px}
+.main.is-file{padding-bottom:0}
+@media (max-width:1000px){.flabs{grid-template-columns:1fr}.ftiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ftile:not(:nth-child(3n+1)){border-inline-start:0}.ftile:nth-child(2n){border-inline-start:1px solid rgb(255 255 255 / .15)}}
+
+@media (max-width:640px){
+  .fgrid,.fgrid.g3{grid-template-columns:1fr}
+  .fpanel{padding:16px}
+  .ftabs button{flex-direction:column;gap:4px;font-size:12.5px;padding:10px 4px}
+  .flab{grid-template-columns:minmax(0,1fr) 120px;row-gap:4px}.fstat{grid-column:1/-1;text-align:start}
+  .fmac{grid-template-columns:100px minmax(0,1fr) 44px}.fmac small{grid-column:2/-1;text-align:start;margin-top:-8px}
+  .flogadd{grid-template-columns:1fr 1fr}.flogadd .btn{grid-column:1/-1}
+  .fbar{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding-inline:10px}
+  .fbar .btn{flex-direction:column;padding:8px 4px;font-size:11.5px;gap:3px;min-width:0!important;white-space:normal;text-align:center;line-height:1.3}
+  .fmeal-h .kc{width:118px}
+}
+/* ---------- motion ---------- */
+section.sec{position:relative;overflow-x:clip}
+.floaty{position:absolute;pointer-events:none;z-index:2;width:var(--w,48px);will-change:translate;filter:drop-shadow(0 12px 12px rgb(29 42 33 / .18))}
+.floaty img{display:block;width:100%;height:auto;animation:bob var(--d,7s) ease-in-out var(--dl,0s) infinite}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(var(--r0,-6deg))}50%{transform:translateY(-16px) rotate(var(--r1,9deg))}}
+@media (max-width:820px){.floaty.dm{display:none}}
+@keyframes rise{from{opacity:0;translate:0 36px}}
+@keyframes dropIn{from{opacity:0;translate:0 -46px;scale:.92}}
+@keyframes sway{0%,100%{rotate:-1.2deg}50%{rotate:1.4deg}}
+@keyframes hillIn{from{translate:0 70px}}
+.hero .lead-block{animation:rise .9s cubic-bezier(.2,.7,.2,1) .1s backwards}
+.hero .tagline{animation:rise .9s cubic-bezier(.2,.7,.2,1) .35s backwards}
+.hero .word.w2{animation:rise .9s cubic-bezier(.2,.7,.2,1) .55s backwards}
+.hero .produce{animation:dropIn 1.2s cubic-bezier(.2,.8,.2,1) .2s backwards,sway 9s ease-in-out 1.4s infinite}
+.hero .ring{animation:rise .8s ease .7s backwards}
+.hero .hill{animation:hillIn 1.2s cubic-bezier(.2,.7,.2,1) .15s backwards}
+.hero .hill-copy{animation:rise .9s cubic-bezier(.2,.7,.2,1) .8s backwards}
+.hero .hcard{animation:rise .8s cubic-bezier(.2,.7,.2,1) backwards;transition:translate .25s,background .2s}
+.hero .hcard:nth-child(1){animation-delay:.95s}.hero .hcard:nth-child(2){animation-delay:1.05s}
+.hcard:hover{translate:0 -8px}
+.hcard>span svg{transition:translate .25s}
+.hcard:hover>span svg{translate:-6px 0}
+[dir="ltr"] .hcard:hover>span svg{translate:6px 0}
+.btn svg{transition:translate .2s}
+.btn:hover svg{translate:0 -2px}
+/* qamariya glint on brand hover */
+.brand .qm path{transform-box:fill-box}
+.brand:hover .qm path{animation:glint .9s ease both}
+.brand:hover .qm path:nth-of-type(2){animation-delay:0s}.brand:hover .qm path:nth-of-type(3){animation-delay:.07s}.brand:hover .qm path:nth-of-type(4){animation-delay:.14s}.brand:hover .qm path:nth-of-type(5){animation-delay:.21s}.brand:hover .qm path:nth-of-type(6){animation-delay:.28s}.brand:hover .qm path:nth-of-type(7){animation-delay:.35s}.brand:hover .qm path:nth-of-type(8){animation-delay:.42s}
+.brand:hover .qm path:first-child{animation:none}
+@keyframes glint{0%,100%{opacity:1}45%{opacity:.25}}
+/* plate: scroll-linked spin, callouts pop, rows point at the plate */
+.arch img{will-change:rotate}
+.call{transition:scale .45s cubic-bezier(.3,1.6,.5,1),opacity .3s,background .2s;scale:.82}
+.arch.in .call{scale:1}
+.arch.in .call:nth-of-type(2){transition-delay:.08s}.arch.in .call:nth-of-type(3){transition-delay:.16s}.arch.in .call:nth-of-type(4){transition-delay:.24s}
+.arch.dim .call:not(.hot){opacity:.3}
+.call.hot{background:var(--saffron);scale:1.14}
+.call.hot i{color:#fff}
+.portion{transition:background .2s,padding .2s;cursor:default;border-radius:2px}
+.portion:hover,.portion:focus-visible{background:var(--mint);padding-inline:12px}
+.portion b{transition:scale .3s}
+.portion:hover b{scale:1.15}
+/* steps: progress line drawn by scroll */
+.steps{position:relative}
+.steps::after{content:"";position:absolute;top:-2px;inset-inline-start:0;width:100%;height:3px;background:var(--saffron);transform:scaleX(var(--p,0));transform-origin:right}
+[dir="ltr"] .steps::after{transform-origin:left}
+.steps .n{transition:scale .5s cubic-bezier(.3,1.6,.5,1),color .3s;display:inline-block}
+.steps li.lit .n{color:var(--forest);scale:1.12}
+/* reveal on scroll (only for content below the first screen) */
+[data-rv]{transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0) * 90ms)}
+[data-rv]:not(.in){opacity:.2;transform:translateY(30px)}
+/* app mock: water fills on a loop */
+.mock .cups i{animation:cup 7s ease-in-out infinite}
+.mock .cups i:nth-child(1){animation-delay:0s}.mock .cups i:nth-child(2){animation-delay:.35s}.mock .cups i:nth-child(3){animation-delay:.7s}.mock .cups i:nth-child(4){animation-delay:1.05s}.mock .cups i:nth-child(5){animation-delay:1.4s}.mock .cups i:nth-child(6){animation-delay:1.75s}.mock .cups i:nth-child(7){animation-delay:2.1s}.mock .cups i:nth-child(8){animation-delay:2.45s}
+@keyframes cup{0%,8%{background:var(--mint)}16%,82%{background:var(--leaf)}92%,100%{background:var(--mint)}}
+.mock{animation:mockfloat 6s ease-in-out infinite}
+@keyframes mockfloat{0%,100%{translate:0 0;rotate:-1.5deg}50%{translate:0 -12px;rotate:1deg}}
+.type,.story,.tpl{transition:translate .25s}
+.type:hover,.story:hover{translate:0 -4px}
+@media (prefers-reduced-motion: reduce){
+  .floaty img,.hero *,.hero .produce,.mock,.mock .cups i,.brand .qm path{animation:none!important}
+  [data-rv]{opacity:1!important;transform:none!important}
+  .call{scale:1}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="demo"><div class="wrap"><span data-t="demo"></span><div class="seg" role="group"><button data-view="site" data-t="v_site"></button><button data-view="portal" data-t="v_portal"></button><button data-view="admin" data-t="v_admin"></button></div></div></div>
+
+<header class="apphead" id="appHead" hidden>
+  <div class="wrap">
+    <a class="brand" href="#" data-home><svg class="qm" viewBox="0 0 40 48" aria-hidden="true"></svg><span><b class="brandName"></b><small class="brandSub"></small></span></a>
+    <div class="end"><button class="lang" data-lang data-t="lang_btn"></button><button class="btn btn-line btn-sm" data-home data-t="back_site"></button></div>
+  </div>
+</header>
+
+<!-- ================= PUBLIC SITE ================= -->
+<main id="view-site">
+  <section class="hero">
+    <div class="wrap hnav" style="max-width:1320px">
+      <a class="brand" href="#" data-home><svg class="qm" viewBox="0 0 40 48" aria-hidden="true"></svg><span><b class="brandName"></b><small class="brandSub"></small></span></a>
+      <nav>
+        <button data-go="method" data-t="nav_method"></button>
+        <button data-go="about" data-t="nav_about"></button>
+        <button data-go="calc" data-t="nav_calc"></button>
+        <button data-go="consult" data-t="nav_consult"></button>
+        <button data-go="contact" data-t="nav_contact"></button>
+      </nav>
+      <div class="end">
+        <button class="lang" data-lang data-t="lang_btn"></button>
+        <button class="btn btn-dark btn-sm login" data-view="portal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg><span data-t="nav_login"></span></button>
+      </div>
+    </div>
+
+    <div class="stage">
+      <span class="floaty " data-depth="1.2" style="left:74%;top:56%;--w:30px;--d:5.5s;" aria-hidden="true"><img src="img/f-seed.webp" alt=""></span><span class="floaty dm" data-depth="0.8" style="left:9%;top:40%;--w:34px;--d:6.5s;--dl:-2s;" aria-hidden="true"><img src="img/f-chickpea.webp" alt=""></span><span class="floaty dm" data-depth="0.5" style="left:47%;top:2%;--w:58px;--d:8s;--dl:-4s;--r0:4deg;--r1:-10deg;" aria-hidden="true"><img src="img/f-walnut.webp" alt=""></span>
+      <div class="lead-block"><h1 class="word w1" id="w1"></h1><p class="tagline"><span class="dot"></span><span data-t="tagline"></span><i></i></p></div>
+      <img class="produce" src="img/produce.webp" alt="" width="1600" height="900">
+      <div class="ring"><span class="ic"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10.5 22 7v10l-6-3.5"/></svg></span><span id="ringTxt"></span></div>
+      <p class="word w2" id="w2" aria-hidden="true"></p>
+    </div>
+
+    <div class="hill">
+      <img class="props" src="img/props.webp" alt="" width="1500" height="401">
+      <div class="desk"><div class="hill-in">
+        <div class="hero-cards">
+          <button class="hcard" data-go="calc"><h3 data-t="hc1"></h3><span><span data-t="hc1s"></span><svg class="flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+          <button class="hcard" data-view="portal"><h3 data-t="hc2"></h3><span><span data-t="hc2s"></span><svg class="flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+        </div>
+        <div class="hill-copy">
+          <p data-t="hero_copy"></p>
+          <a class="btn btn-white" id="heroWa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" style="color:#1F5A3A"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4 5.2 5.2 0 0 0 3.1.6 2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3Z"/></svg><span data-t="cta_book"></span></a>
+        </div>
+      </div></div>
+    </div>
+  </section>
+  <div class="frieze"></div>
+  <div class="conds"><span class="lead" data-t="cond_lead"></span><div class="marq"><div class="marq-track" id="conds"></div></div></div>
+
+  <!-- plate method -->
+  <section class="sec" id="method"><span class="floaty dm" data-depth="0.35" style="left:3%;top:9%;--w:120px;--d:8s;--r0:-14deg;--r1:6deg;" aria-hidden="true"><img src="img/f-mint.webp" alt=""></span><span class="floaty " data-depth="0.6" style="left:47%;bottom:9%;--w:58px;--d:6s;--dl:-1s;" aria-hidden="true"><img src="img/f-olive.webp" alt=""></span>
+    <div class="wrap plate-grid">
+      <div class="arch">
+        <img src="img/plate.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="call veg"><i>½</i><span data-t="pl_veg_s"></span></span>
+        <span class="call pro"><i>¼</i><span data-t="pl_pro_s"></span></span>
+        <span class="call gr"><i>¼</i><span data-t="pl_gr_s"></span></span>
+        <span class="call hl"><span data-t="pl_hl_s"></span></span>
+      </div>
+      <div>
+        <span class="label" data-t="m_label"></span>
+        <h2 class="h2" data-t="m_title"></h2>
+        <p class="sub" data-t="m_sub"></p>
+        <div class="portions">
+          <div class="portion" tabindex="0" data-call="veg"><b>½</b><div><h3 data-t="pl_veg"></h3><p data-t="pl_veg_d"></p></div></div>
+          <div class="portion" tabindex="0" data-call="pro"><b>¼</b><div><h3 data-t="pl_pro"></h3><p data-t="pl_pro_d"></p></div></div>
+          <div class="portion" tabindex="0" data-call="gr"><b>¼</b><div><h3 data-t="pl_gr"></h3><p data-t="pl_gr_d"></p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="sec about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="label" data-t="about_label"></span>
+        <blockquote data-t="about_quote"></blockquote>
+        <div class="sig"><b class="brandName"></b><span class="muted" data-t="about_role"></span></div>
+        <ul class="pillars">
+          <li><b data-t="pi1_t"></b><span data-t="pi1_d"></span></li>
+          <li><b data-t="pi2_t"></b><span data-t="pi2_d"></span></li>
+          <li><b data-t="pi3_t"></b><span data-t="pi3_d"></span></li>
+        </ul>
+      </div>
+      <aside class="cred">
+        <svg class="qm" viewBox="0 0 40 48" aria-hidden="true"></svg>
+        <h3 data-t="cr_title"></h3>
+        <dl id="creds"></dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- calculator -->
+  <section class="sec" id="calc"><span class="floaty " data-depth="0.45" style="right:5%;top:8%;--w:54px;--d:7s;--dl:-3s;--r0:12deg;--r1:-6deg;" aria-hidden="true"><img src="img/f-almond.webp" alt=""></span><span class="floaty dm" data-depth="0.7" style="left:4%;bottom:14%;--w:30px;--d:5s;" aria-hidden="true"><img src="img/f-seed.webp" alt=""></span>
+    <div class="wrap">
+      <div class="head-row"><div><span class="label" data-t="calc_label"></span><h2 class="h2" data-t="calc_title"></h2><p class="sub" data-t="calc_sub"></p></div></div>
+      <div class="calc-grid">
+        <form id="calcForm" class="form-grid" novalidate>
+          <div class="field"><label for="c-age" data-t="f_age"></label><input id="c-age" type="number" inputmode="numeric" value="30" min="15" max="90"></div>
+          <div class="field"><span class="lbl" data-t="f_sex"></span><div class="toggle2" id="c-sex"><button type="button" data-v="f" aria-pressed="true" data-t="female"></button><button type="button" data-v="m" aria-pressed="false" data-t="male"></button></div></div>
+          <div class="field"><label for="c-w" data-t="f_weight"></label><input id="c-w" type="number" inputmode="decimal" value="72"></div>
+          <div class="field"><label for="c-h" data-t="f_height"></label><input id="c-h" type="number" inputmode="numeric" value="162"></div>
+          <div class="field full"><label for="c-act" data-t="f_activity"></label><select id="c-act"><option value="1.2" data-t="act1"></option><option value="1.375" data-t="act2" selected></option><option value="1.55" data-t="act3"></option><option value="1.725" data-t="act4"></option></select></div>
+          <div class="field full"><span class="lbl" data-t="f_goal"></span><div class="toggle2" id="c-goal"><button type="button" data-v="-500" aria-pressed="true" data-t="g_lose"></button><button type="button" data-v="0" aria-pressed="false" data-t="g_keep"></button><button type="button" data-v="300" aria-pressed="false" data-t="g_gain"></button></div></div>
+        </form>
+        <div><div class="result" id="calcResult" aria-live="polite"></div><p class="note" data-t="calc_note"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how -->
+  <section class="sec how">
+    <div class="wrap">
+      <div class="head-row"><div><span class="label" data-t="how_label"></span><h2 class="h2" data-t="how_title"></h2></div></div>
+      <ol class="steps">
+        <li><span class="n">١</span><h3 data-t="s1_t"></h3><p data-t="s1_d"></p></li>
+        <li><span class="n">٢</span><h3 data-t="s2_t"></h3><p data-t="s2_d"></p></li>
+        <li><span class="n">٣</span><h3 data-t="s3_t"></h3><p data-t="s3_d"></p></li>
+        <li><span class="n">٤</span><h3 data-t="s4_t"></h3><p data-t="s4_d"></p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- consultation types -->
+  <section class="sec" id="consult" style="padding-top:0">
+    <div class="wrap">
+      <div class="head-row" style="padding-top:clamp(64px,9vw,112px);border-top:1px solid var(--line)"><div><span class="label" data-t="consult_label"></span><h2 class="h2" data-t="consult_title"></h2></div><p class="sub" data-t="consult_sub" style="margin:0"></p></div>
+      <div class="types" id="types"></div>
+    </div>
+  </section>
+
+  <!-- app -->
+  <section class="sec appsec"><span class="floaty dm" data-depth="0.5" style="left:44%;top:10%;--w:76px;--d:9s;--dl:-2s;" aria-hidden="true"><img src="img/f-walnut.webp" alt=""></span><span class="floaty dm" data-depth="0.8" style="left:8%;bottom:12%;--w:32px;--d:6s;--dl:-1s;" aria-hidden="true"><img src="img/f-chickpea.webp" alt=""></span>
+    <div class="wrap app-grid">
+      <div>
+        <span class="label" data-t="app_label"></span>
+        <h2 class="h2" data-t="app_title"></h2>
+        <ul class="feat">
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20h16M7 16V9M12 16V5M17 16v-4"/></svg></span><div><h3 data-t="f1_t"></h3><p data-t="f1_d"></p></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M9 6l1.5-2h3L15 6"/></svg></span><div><h3 data-t="f2_t"></h3><p data-t="f2_d"></p></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><h3 data-t="f3_t"></h3><p data-t="f3_d"></p></div></li>
+        </ul>
+        <button class="btn btn-dark" data-view="portal" data-t="app_cta"></button>
+      </div>
+      <div class="mock" aria-hidden="true">
+        <div class="scr">
+          <div class="hi" data-t="p_hello"></div><div class="mut" data-t="p_week"></div>
+          <div class="bx g"><div class="row"><span data-t="p_weight"></span><span class="num" dir="ltr">−5.5 kg</span></div><div class="wt num">76.5</div></div>
+          <div class="bx"><div class="row"><span data-t="p_water"></span><span class="num">5/8</span></div><div class="cups"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div></div>
+          <div class="bx"><div class="row"><img src="img/plate.webp" alt=""><div style="flex:1"><b style="color:var(--ink)" data-t="m_lunch"></b><div class="muted" style="font-size:11px;line-height:1.5" data-t="mock_lunch"></div></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stories -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="head-row"><div><span class="label" data-t="st_label"></span><h2 class="h2" data-t="stories_title"></h2></div><p class="sub" data-t="stories_note" style="margin:0"></p></div>
+      <div class="stories" id="storiesList"></div>
+    </div>
+  </section>
+
+  <!-- faq -->
+  <section class="sec" id="faq" style="padding-top:0">
+    <div class="wrap faq-grid">
+      <div><span class="label" data-t="faq_label"></span><h2 class="h2" data-t="faq_title"></h2></div>
+      <div class="faq" id="faqList"></div>
+    </div>
+  </section>
+
+  <div class="frieze b"></div>
+  <!-- contact -->
+  <section class="sec contact" id="contact"><span class="floaty dm" data-depth="0.4" style="left:44%;top:7%;--w:90px;--d:8s;--dl:-5s;--r0:20deg;--r1:-4deg;" aria-hidden="true"><img src="img/f-mint.webp" alt=""></span>
+    <div class="wrap contact-grid">
+      <div>
+        <span class="label" data-t="contact_label"></span>
+        <h2 class="h2" data-t="contact_title"></h2>
+        <p class="sub" data-t="contact_sub"></p>
+        <div class="info">
+          <div class="info-item"><span class="k" data-t="whatsapp"></span><span class="v ltr" id="waDisplay"></span></div>
+          <div class="info-item"><span class="k">Instagram</span><span class="v ltr" id="igDisplay"></span></div>
+          <div class="info-item"><span class="k" data-t="hours"></span><span class="v" data-t="hours_v"></span></div>
+          <div class="info-item"><span class="k" data-t="clinic"></span><span class="v" id="clinicStatus"></span></div>
+        </div>
+      </div>
+      <form id="contactForm" class="cform form-grid" novalidate>
+        <div class="field"><label for="k-name" data-t="f_name"></label><input id="k-name" autocomplete="name"></div>
+        <div class="field"><label for="k-phone" data-t="f_phone"></label><input id="k-phone" inputmode="tel" dir="ltr" placeholder="+967"></div>
+        <div class="field full"><label for="k-type" data-t="f_type"></label><select id="k-type"></select></div>
+        <div class="field full"><label for="k-msg" data-t="f_reason"></label><textarea id="k-msg"></textarea></div>
+        <div class="field full"><button class="btn btn-dark" type="submit" data-t="send_wa" style="justify-self:start;align-self:flex-start"></button>
+          <div class="wa-out" id="waOut" hidden><b data-t="wa_ready"></b><pre id="waText"></pre>
+            <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-dark btn-sm" id="waOpen" target="_blank" rel="noopener" data-t="open_wa"></a><button type="button" class="btn btn-line btn-sm" id="waCopy" data-t="copy"></button></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer><div class="wrap"><span id="footBrand"></span><span data-t="foot_note"></span></div></footer>
+  <a class="fab" id="fab" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4 5.2 5.2 0 0 0 3.1.6 2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+</main>
+
+<main id="view-portal" hidden><div class="portal-bg"><div class="wrap"><div class="phone" id="phone"></div></div></div></main>
+<main id="view-admin" hidden><div class="admin"><aside class="side" id="side"></aside><div class="main" id="adminMain"></div></div></main>
+
+<div id="drawerRoot"></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/* ---------- CONFIG: real details go here ---------- */
+const CONFIG = {
+  name:   {ar:'د. مروى ثابت', en:'Dr. Marwa Thabet'},
+  role:   {ar:'أخصائية تغذية علاجية', en:'Clinical nutritionist'},
+  whatsapp: '+967 770 430 490',
+  instagram: '@ma5_r5',
+  inPerson: false            // switch to true (or use the dashboard switch) when in-person visits open
+};
+
+const T = {
+ar:{demo:'معاينة النموذج',v_site:'الموقع',v_portal:'بوابة العميل',v_admin:'لوحة الأخصائية',back_site:'العودة للموقع',
+nav_method:'منهجنا',nav_about:'عن الدكتورة',nav_calc:'الحاسبة',nav_consult:'الاستشارات',nav_contact:'تواصل',nav_login:'دخول المشتركين',lang_btn:'English',whatsapp:'واتساب',
+w1:'العافية',w2:'تشتي أكل',tagline:'مَثَل يمني، بعِلم حديث',ring:'استشارات<br>عن بُعد',
+hero_copy:'صحتك تبدأ من اختياراتك اليومية. نساعدك تفهم احتياجات جسمك وتنظّم أكلك، بطريقة علمية تناسب حياتك وأكلك اليمني.',cta_book:'ابدأ رحلتك نحو صحة أفضل',
+hc1:'احسب احتياجك اليومي',hc1s:'أداة مجانية',hc2:'تابع خطتك من جوالك',hc2s:'بوابة المشتركين',
+cond_lead:'نرافقك في',
+m_label:'منهجنا',m_title:'مش حرمان، هي عافية واتزان',m_sub:'لا قائمة ممنوعات. نتعلّم معاً كيف تبني صحنك من أكلك اليمني الذي تحبّه، بالكميات التي تناسب جسمك.',
+pl_veg:'نصف الصحن خضار',pl_veg_d:'سلطة، بامية، كوسة أو خضار المرق. ألياف تُشبعك وقتاً أطول.',pl_veg_s:'خضار',
+pl_pro:'ربع بروتين',pl_pro_d:'سمك، دجاج، بيض، فول أو عدس. يحافظ على عضلاتك ويضبط الجوع.',pl_pro_s:'سمك',
+pl_gr:'ربع حبوب كاملة',pl_gr_d:'أرز أسمر، خبز بُر، ذرة أو دخن. طاقة ثابتة بلا هبوط مفاجئ.',pl_gr_s:'أرز أسمر',
+pl_hl_s:'حلبة',
+about_label:'عن الدكتورة',about_quote:'«لا أؤمن بالحميات القاسية. أؤمن بخطة تفهم يومك ومطبخك وصحتك، وتتغيّر معك أسبوعاً بعد أسبوع.»',about_role:'أخصائية تغذية علاجية',cr_title:'المؤهلات',cr1:['التعليم','خرّيجة جامعة الرازي بمرتبة الشرف'],cr2:['سنة الامتياز','أتمّت سنة الامتياز (التدريب السريري)'],cr3:['التخصص','تغذية علاجية'],cr4:['الاستشارات','عن بُعد، داخل اليمن وخارجه'],
+pi1_t:'مبنية على العلم',pi1_d:'توصيات حديثة في التغذية العلاجية، بلغة بسيطة.',
+pi2_t:'من مطبخك',pi2_d:'لحوح، شفوت، سمك وحلبة: نبني على أكلك لا ضدّه.',
+pi3_t:'معك أينما كنت',pi3_d:'متابعة عن بُعد داخل اليمن وخارجه.',
+calc_label:'أداة مجانية',calc_title:'كم سعرة يحتاج جسمك؟',calc_sub:'أدخل بياناتك لتقدير احتياجك اليومي. النتيجة تتحدّث مباشرة.',
+f_age:'العمر',f_sex:'الجنس',female:'أنثى',male:'ذكر',f_weight:'الوزن (كغ)',f_height:'الطول (سم)',f_activity:'مستوى النشاط',
+act1:'قليل الحركة',act2:'نشاط خفيف (1–3 أيام أسبوعياً)',act3:'نشاط متوسط (3–5 أيام)',act4:'نشاط عالٍ (6–7 أيام)',
+f_goal:'الهدف',g_lose:'خسارة وزن',g_keep:'محافظة',g_gain:'زيادة وزن',
+r_target:'هدفك اليومي',r_bmr:'الأيض الأساسي',r_tdee:'الاحتياج اليومي',kcal:'سعرة',r_macros:'توزيع مقترح',protein:'بروتين',carbs:'كربوهيدرات',fat:'دهون',g:'غ',
+calc_note:'تقديرات عامة وفق معادلة Mifflin-St Jeor، ولا تغني عن الاستشارة الطبية أو الغذائية.',calc_cta:'احصل على خطة بهذه الأرقام',
+how_label:'خطوة بخطوة',how_title:'كيف نبدأ معاً',
+s1_t:'احجز على واتساب',s1_d:'أرسل رسالة واختر الوقت المناسب لاستشارتك.',
+s2_t:'التقييم الأول',s2_d:'نراجع تاريخك الصحي وعاداتك وأهدافك في مكالمة فيديو.',
+s3_t:'استلم خطتك',s3_d:'تصلك خطتك على بوابة المشتركين وتفتحها من جوالك.',
+s4_t:'تابع وتقدّم',s4_d:'سجّل وزنك ووجباتك أسبوعياً، ونعدّل الخطة معك.',
+consult_label:'الاستشارات',consult_title:'اختر طريقة استشارتك',consult_sub:'نستقبل حالياً الاستشارات عن بُعد فقط. الاستشارات الحضورية ستُتاح قريباً.',
+online_t:'عن بُعد',online_d:'مكالمة فيديو أو واتساب من أي مكان، داخل اليمن وخارجه.',
+o_l1:['التقييم الأول','60 دقيقة'],o_l2:['المتابعة','30 دقيقة'],o_l3:['الخطة','على بوابة المشتركين'],
+inperson_t:'حضوري',inperson_off:'في العيادة مع قياسات الجسم الكاملة. هذه الخدمة غير متاحة حالياً وسنعلن عن افتتاحها هنا.',
+inperson_on:'في العيادة مع قياسات الجسم الكاملة. احجز موعدك عبر واتساب.',i_l1:['القياسات','وزن ونسبة دهون'],i_l2:['المحيطات','خصر وورك'],i_l3:['الجلسة','وجهاً لوجه'],
+available:'متاح الآن',unavailable:'غير متاح حالياً',book_now:'احجز الآن',notify_me:'أخبروني عند الافتتاح',
+app_label:'بوابة المشتركين',app_title:'خطتك ومتابعتك في جيبك',
+f1_t:'سجّل في دقيقة',f1_d:'الوزن والماء والمزاج بضغطات قليلة، بلا نماذج طويلة.',
+f2_t:'صوّر صحنك',f2_d:'صورة الوجبة تغني عن كتابة المكوّنات، والدكتورة تراها مباشرة.',
+f3_t:'احجز متابعتك',f3_d:'اختر اليوم والوقت المتاحين، وتصلك التذكيرات على واتساب.',app_cta:'جرّب بوابة المشتركين',
+mock_lunch:'سمك مشوي، أرز أسمر وسلطة',
+st_label:'نتائج',stories_title:'قصص من العيادة',stories_note:'نصوص توضيحية، تُستبدل بآراء حقيقية من المراجِعين.',
+faq_label:'أسئلة شائعة',faq_title:'قبل أن تحجز',
+contact_label:'تواصل',contact_title:'لنبدأ خطتك',contact_sub:'املأ النموذج ونجهّز لك رسالة واتساب جاهزة للإرسال.',hours:'ساعات الرد',hours_v:'السبت – الخميس، 9 ص – 7 م',clinic:'العيادة',
+f_name:'الاسم الكامل',f_phone:'رقم الجوال',f_type:'نوع الاستشارة',f_reason:'ما الذي تريد تحقيقه؟',send_wa:'جهّز رسالة واتساب',wa_ready:'رسالتك جاهزة',open_wa:'افتح واتساب',copy:'نسخ النص',copied:'تم النسخ',
+foot_note:'من أكلنا تبدأ عافيتنا',
+p_hello:'أهلاً سارة',p_week:'الأسبوع 9 من خطتك',p_logout:'خروج',p_next:'موعدك القادم',p_streak:'يوماً متتالياً',
+p_weight:'وزن اليوم',p_weight_h:'على الريق، بعد الاستيقاظ',p_water:'الماء',p_water_h:'اضغط على كل كوب تشربه',p_cups:'أكواب من 8',
+p_meal:'صورة الوجبة',p_meal_h:'صوّر صحنك بدل كتابة المكوّنات',p_upload:'اختر صورة أو التقطها',
+p_mood:'كيف تشعرين اليوم؟',mood_good:'ممتاز',mood_ok:'عادي',mood_low:'متعب',p_note:'ملاحظة للدكتورة',p_note_ph:'اختياري، مثلاً: كان عندنا عزومة يوم الجمعة',
+p_send:'أرسل التسجيل',p_sent:'وصل تسجيلك للدكتورة',
+p_tab_today:'اليوم',p_tab_plan:'خطتي',p_tab_progress:'تقدّمي',p_tab_appts:'مواعيدي',
+p_plan_t:'خطة اليوم',p_plan_s:'1600 سعرة · خسارة وزن · عُدّلت قبل 3 أيام',p_done:'من الوجبات',p_swap:'لا يناسبك صنف؟ اطلبي بديلاً على واتساب.',
+m_breakfast:'فطور',m_snack:'وجبة خفيفة',m_lunch:'غداء',m_dinner:'عشاء',
+p_chart:'الوزن خلال 9 أسابيع',p_start:'البداية',p_now:'الآن',p_change:'التغيّر',p_goal:'الهدف',kg:'كغ',p_week_l:'أ',
+p_upcoming:'مواعيدك القادمة',p_book:'احجز موعد متابعة',online:'عن بُعد',inperson:'حضوري',p_day:'اختر اليوم',p_time:'اختر الوقت',p_confirm:'تأكيد الحجز',p_booked:'تم حجز موعدك',p_via:'فيديو عبر واتساب',p_pick_both:'اختر يوماً ووقتاً',p_inp_off:'الحجز الحضوري غير متاح حالياً',
+l_title:'أهلاً بك',l_sub:'ادخل برقم جوالك، بلا كلمة سر.',l_send:'أرسل الرمز',l_code:'أدخل الرمز الذي وصلك على واتساب',l_enter:'دخول',l_demo:'نموذج تجريبي: أي رمز يعمل',
+a_overview:'نظرة عامة',a_clients:'المراجِعون',a_plans:'خطط الوجبات',a_appts:'المواعيد',a_settings:'الإعدادات',
+a_greet:'صباح الخير',a_sub:'هذا ما يحتاج انتباهك اليوم.',st_active:'مراجِعون نشطون',st_review:'تسجيلات للمراجعة',st_today:'مواعيد اليوم',st_inactive:'بلا تسجيل +7 أيام',
+a_attention:'يحتاج انتباهك',a_review:'راجِعي',a_remind:'ذكّري',a_schedule:'جدول اليوم',q_new:'تسجيل جديد',q_quiet:'لم يسجّل منذ {n} أيام',
+search:'ابحثي عن مراجِع',f_all:'الكل',s_active:'نشط',s_review:'للمراجعة',s_inactive:'متوقف',
+th_client:'المراجِع',th_goal:'الهدف',th_progress:'التغيّر',th_last:'آخر تسجيل',th_status:'الحالة',
+today:'اليوم',yesterday:'أمس',days_ago:'منذ {n} أيام',
+d_latest:'آخر تسجيل',d_notes:'ملاحظات خاصة (لا يراها المراجِع)',d_save:'حفظ',d_saved:'حُفظت الملاحظات',d_send_plan:'إرسال خطة',d_wa:'مراسلة على واتساب',close:'إغلاق',d_water:'ماء',d_mood:'المزاج',
+plans_sub:'اختاري القالب، عدّلي عليه، وأرسليه للمراجِع.',used:'استُخدم {n} مرات',assign_to:'اختاري مراجِعاً',send:'إرسال',plan_sent:'أُرسلت الخطة إلى {name}',new_tpl:'قالب جديد',
+appts_sub:'كل المواعيد عن بُعد حالياً.',first:'استشارة أولى',follow:'متابعة',
+set_inperson:'الاستشارات الحضورية',set_inperson_d:'عند التفعيل يظهر الحجز الحضوري في الموقع وفي بوابة المشتركين. أثناء الإيقاف يراه الزوار «غير متاح حالياً».',
+on:'مفعّل',off:'متوقف',set_wa:'رقم واتساب للتواصل',set_wa_d:'يظهر في الموقع وخلف كل أزرار التواصل.',set_lang:'لغة الموقع الافتراضية',set_lang_d:'العربية أولاً، مع زر للتبديل إلى الإنجليزية.',
+inp_on_toast:'تم تفعيل الاستشارات الحضورية',inp_off_toast:'تم إيقاف الاستشارات الحضورية',reminder:'جُهّز تذكير واتساب لـ{name}',
+clinic_off:'الحضوري متوقف حالياً',clinic_on:'تستقبل مواعيد حضورية',
+goal_loss:'خسارة وزن',goal_pcos:'تكيّس المبايض',goal_dm:'السكري',goal_bp:'ضغط الدم',goal_preg:'تغذية الحمل',goal_sport:'أداء رياضي',goal_anemia:'فقر الدم',
+wa_msg:'السلام عليكم، معك {name}.\nرقمي: {phone}\nأرغب بحجز استشارة: {type}\nهدفي: {msg}'},
+en:{demo:'Prototype preview',v_site:'Website',v_portal:'Client portal',v_admin:'Nutritionist dashboard',back_site:'Back to site',
+nav_method:'Method',nav_about:'About',nav_calc:'Calculator',nav_consult:'Consultations',nav_contact:'Contact',nav_login:'Client login',lang_btn:'العربية',whatsapp:'WhatsApp',
+w1:'Health',w2:'needs food',tagline:'A Yemeni saying, backed by modern science',ring:'Online<br>consultations',
+hero_copy:'Your health starts with everyday choices. We help you understand your body and organise your eating, with an evidence-based approach that fits your life and your Yemeni food.',cta_book:'Start your journey to better health',
+hc1:'Find your daily calorie need',hc1s:'Free tool',hc2:'Follow your plan on your phone',hc2s:'Client portal',
+cond_lead:'We help with',
+m_label:'Our method',m_title:"It's not deprivation. It's health and balance.",m_sub:'No list of forbidden foods. Together we build your plate from the Yemeni food you already enjoy, in portions that fit your body.',
+pl_veg:'Half the plate: vegetables',pl_veg_d:'Salad, okra, zucchini or the vegetables from your maraq. Fibre keeps you full for longer.',pl_veg_s:'Vegetables',
+pl_pro:'A quarter: protein',pl_pro_d:'Fish, chicken, eggs, ful or lentils. Protects muscle and keeps hunger steady.',pl_pro_s:'Fish',
+pl_gr:'A quarter: whole grains',pl_gr_d:'Brown rice, burr bread, sorghum or millet. Steady energy, no sudden crash.',pl_gr_s:'Brown rice',
+pl_hl_s:'Hulba',
+about_label:'About the doctor',about_quote:'"I don\'t believe in harsh diets. I believe in a plan that understands your day, your kitchen and your health, and changes with you week by week."',about_role:'Clinical nutritionist',cr_title:'Credentials',cr1:['Education','Al-Razi University, graduated with honours'],cr2:['Internship year','Completed the clinical internship year (sanat al-imtiyaz)'],cr3:['Specialty','Clinical nutrition'],cr4:['Consultations','Online, in Yemen and abroad'],
+pi1_t:'Grounded in science',pi1_d:'Current clinical nutrition guidance, in plain words.',
+pi2_t:'From your kitchen',pi2_d:'Lahoh, shafoot, fish and hulba: we build on your food, not against it.',
+pi3_t:'Wherever you are',pi3_d:'Remote follow-up in Yemen and abroad.',
+calc_label:'Free tool',calc_title:'How many calories does your body need?',calc_sub:'Enter your details to estimate your daily need. The result updates as you type.',
+f_age:'Age',f_sex:'Sex',female:'Female',male:'Male',f_weight:'Weight (kg)',f_height:'Height (cm)',f_activity:'Activity level',
+act1:'Sedentary',act2:'Light (1–3 days a week)',act3:'Moderate (3–5 days)',act4:'Very active (6–7 days)',
+f_goal:'Goal',g_lose:'Lose weight',g_keep:'Maintain',g_gain:'Gain weight',
+r_target:'Your daily target',r_bmr:'BMR',r_tdee:'Daily need',kcal:'kcal',r_macros:'Suggested split',protein:'Protein',carbs:'Carbs',fat:'Fat',g:'g',
+calc_note:'General estimates using the Mifflin-St Jeor equation. Not a substitute for medical or nutrition advice.',calc_cta:'Get a plan with these numbers',
+how_label:'Step by step',how_title:'How we start together',
+s1_t:'Book on WhatsApp',s1_d:'Send a message and pick a time for your consultation.',
+s2_t:'First assessment',s2_d:'We review your health history, habits and goals over a video call.',
+s3_t:'Get your plan',s3_d:'Your plan arrives in the client portal, ready on your phone.',
+s4_t:'Check in and progress',s4_d:'Log your weight and meals weekly and we adjust the plan together.',
+consult_label:'Consultations',consult_title:'Choose how we meet',consult_sub:'We currently offer online consultations only. In-person visits will open soon.',
+online_t:'Online',online_d:'Video or WhatsApp call from anywhere, in Yemen or abroad.',
+o_l1:['First assessment','60 min'],o_l2:['Follow-up','30 min'],o_l3:['Your plan','In the client portal'],
+inperson_t:'In person',inperson_off:'At the clinic with full body measurements. Not available right now; we will announce it here when it opens.',
+inperson_on:'At the clinic with full body measurements. Book your slot on WhatsApp.',i_l1:['Measurements','Weight and body fat'],i_l2:['Circumferences','Waist and hip'],i_l3:['Session','Face to face'],
+available:'Available now',unavailable:'Not available now',book_now:'Book now',notify_me:'Tell me when it opens',
+app_label:'Client portal',app_title:'Your plan and follow-up, in your pocket',
+f1_t:'Check in within a minute',f1_d:'Weight, water and mood in a few taps. No long forms.',
+f2_t:'Snap your plate',f2_d:'A meal photo replaces typing ingredients, and the doctor sees it right away.',
+f3_t:'Book your follow-up',f3_d:'Pick an open day and time and get reminders on WhatsApp.',app_cta:'Try the client portal',
+mock_lunch:'Grilled fish, brown rice, salad',
+st_label:'Results',stories_title:'Stories from the clinic',stories_note:'Sample quotes, to be replaced with real client reviews.',
+faq_label:'FAQ',faq_title:'Before you book',
+contact_label:'Contact',contact_title:"Let's start your plan",contact_sub:'Fill in the form and we prepare a WhatsApp message ready to send.',hours:'Reply hours',hours_v:'Sat – Thu, 9am – 7pm',clinic:'Clinic',
+f_name:'Full name',f_phone:'Mobile number',f_type:'Consultation type',f_reason:'What would you like to achieve?',send_wa:'Prepare WhatsApp message',wa_ready:'Your message is ready',open_wa:'Open WhatsApp',copy:'Copy text',copied:'Copied',
+foot_note:'Our wellbeing begins with what we eat',
+p_hello:'Hi Sara',p_week:'Week 9 of your plan',p_logout:'Log out',p_next:'Next appointment',p_streak:'day streak',
+p_weight:"Today's weight",p_weight_h:'Before breakfast, after waking up',p_water:'Water',p_water_h:'Tap a cup for each glass',p_cups:'of 8 glasses',
+p_meal:'Meal photo',p_meal_h:'Snap your plate instead of typing it out',p_upload:'Choose or take a photo',
+p_mood:'How do you feel today?',mood_good:'Great',mood_ok:'Okay',mood_low:'Tired',p_note:'Note for the doctor',p_note_ph:'Optional, e.g. family lunch on Friday',
+p_send:'Send check-in',p_sent:'Your check-in reached the doctor',
+p_tab_today:'Today',p_tab_plan:'My plan',p_tab_progress:'Progress',p_tab_appts:'Appointments',
+p_plan_t:"Today's plan",p_plan_s:'1600 kcal · weight loss · updated 3 days ago',p_done:'meals done',p_swap:"Something doesn't suit you? Ask for a swap on WhatsApp.",
+m_breakfast:'Breakfast',m_snack:'Snack',m_lunch:'Lunch',m_dinner:'Dinner',
+p_chart:'Weight over 9 weeks',p_start:'Start',p_now:'Now',p_change:'Change',p_goal:'Goal',kg:'kg',p_week_l:'W',
+p_upcoming:'Upcoming',p_book:'Book a follow-up',online:'Online',inperson:'In person',p_day:'Pick a day',p_time:'Pick a time',p_confirm:'Confirm booking',p_booked:'Your appointment is booked',p_via:'WhatsApp video',p_pick_both:'Pick a day and a time',p_inp_off:'In-person booking is not available now',
+l_title:'Welcome back',l_sub:'Sign in with your mobile number. No password needed.',l_send:'Send code',l_code:'Enter the code we sent on WhatsApp',l_enter:'Sign in',l_demo:'Demo: any code works',
+a_overview:'Overview',a_clients:'Clients',a_plans:'Meal plans',a_appts:'Appointments',a_settings:'Settings',
+a_greet:'Good morning',a_sub:"Here's what needs you today.",st_active:'Active clients',st_review:'Check-ins to review',st_today:"Today's appointments",st_inactive:'Quiet for 7+ days',
+a_attention:'Needs your attention',a_review:'Review',a_remind:'Nudge',a_schedule:"Today's schedule",q_new:'New check-in',q_quiet:'No check-in for {n} days',
+search:'Search clients',f_all:'All',s_active:'Active',s_review:'To review',s_inactive:'Quiet',
+th_client:'Client',th_goal:'Goal',th_progress:'Change',th_last:'Last check-in',th_status:'Status',
+today:'Today',yesterday:'Yesterday',days_ago:'{n} days ago',
+d_latest:'Latest check-in',d_notes:'Private notes (client cannot see)',d_save:'Save',d_saved:'Notes saved',d_send_plan:'Send a plan',d_wa:'Message on WhatsApp',close:'Close',d_water:'Water',d_mood:'Mood',
+plans_sub:'Pick a template, adjust it, send it to a client.',used:'Used {n} times',assign_to:'Choose a client',send:'Send',plan_sent:'Plan sent to {name}',new_tpl:'New template',
+appts_sub:'All appointments are online for now.',first:'First consultation',follow:'Follow-up',
+set_inperson:'In-person consultations',set_inperson_d:'When on, in-person booking appears on the site and in the client portal. While off, visitors see it as "not available now".',
+on:'On',off:'Off',set_wa:'WhatsApp contact number',set_wa_d:'Shown on the site and behind every contact button.',set_lang:'Default site language',set_lang_d:'Arabic first, with a switch to English.',
+inp_on_toast:'In-person consultations turned on',inp_off_toast:'In-person consultations turned off',reminder:'WhatsApp reminder prepared for {name}',
+clinic_off:'In-person paused for now',clinic_on:'Open for in-person visits',
+goal_loss:'Weight loss',goal_pcos:'PCOS',goal_dm:'Diabetes',goal_bp:'Blood pressure',goal_preg:'Pregnancy',goal_sport:'Sports performance',goal_anemia:'Anaemia',
+wa_msg:"Hello, this is {name}.\nMobile: {phone}\nI'd like to book a consultation: {type}\nMy goal: {msg}"}
+};
+
+const CONDS=[['خسارة الوزن','Weight loss'],['السكري','Diabetes'],['فقر الدم','Anaemia'],['تكيّس المبايض','PCOS'],['ضغط الدم','Blood pressure'],['الكوليسترول','Cholesterol'],['القولون والهضم','IBS & digestion'],['الغدة الدرقية','Thyroid'],['الحمل والرضاعة','Pregnancy & breastfeeding'],['تغذية الأطفال','Child nutrition'],['التغذية الرياضية','Sports nutrition']];
+const STORIES=[
+ {q:['علّمتني كيف آكل بدل ما تحرمني. نزلت 12 كيلو في سبعة أشهر وأنا آكل من أكل البيت.',"She taught me how to eat instead of cutting everything out. I lost 12 kg in seven months while eating home food."],n:['س. ع.','S. A.'],r:['−12 كغ','−12 kg']},
+ {q:['فهمت كيف يأثّر الأكل على السكر عندي، والخطة تناسب دوامي الطويل.','I finally understand how food affects my blood sugar, and the plan fits my long shifts.'],n:['ع. ب.','O. B.'],r:['سكر أهدأ','Steadier glucose']},
+ {q:['أسجّل من الجوال في دقيقة، وترد عليّ بتعديلات في نفس الأسبوع.','I check in from my phone in a minute and get adjustments the same week.'],n:['ه. م.','H. M.'],r:['طاقة أعلى','More energy']}];
+const FAQ=[
+ [['ماذا يحدث في الاستشارة الأولى؟','What happens in the first consultation?'],['نراجع تاريخك الصحي وعاداتك الحالية ونمط حياتك وأهدافك وأي تحاليل لديك. تستغرق نحو ساعة، وعلى أساسها نبني خطتك.','We go through your health history, current habits, lifestyle, goals and any lab results. It takes about an hour and forms the basis of your plan.']],
+ [['كيف تكون الخطة مخصّصة لي؟','How is the plan made personal?'],['نراعي الأكل الذي تحبه، والحساسية، ودوامك، ووقتك للطبخ، وميزانيتك. الخطة مبنية من أكل حقيقي متوفّر حيث تعيش.','We account for the food you like, allergies, your schedule, cooking time and budget. Plans use real food that is easy to find where you live.']],
+ [['كيف تتم المتابعة؟','How does follow-up work?'],['تسجّل وزنك وصور وجباتك من بوابة المشتركين، ونراجعها أسبوعياً ونعدّل الخطة. والأسئلة السريعة عبر واتساب.','You log your weight and meal photos in the client portal; we review them weekly and adjust the plan. Quick questions go through WhatsApp.']],
+ [['هل توجد استشارات حضورية؟','Do you offer in-person visits?'],['حالياً الاستشارات عن بُعد فقط. سنعلن هنا وعلى إنستغرام فور افتتاح المواعيد الحضورية.','Right now consultations are online only. We will announce it here and on Instagram as soon as in-person visits open.']]];
+
+const CLIENTS=[
+ {id:1,n:['سارة العولقي','Sara Al-Awlaqi'],goal:'loss',start:82,now:76.5,target:70,last:0,status:'review',water:6,mood:'good',note:['كان عندنا عزومة يوم الجمعة، حاولت ألتزم بالصحن الصغير.','Family lunch on Friday, I tried to stick to a small plate.']},
+ {id:2,n:['عمر باوزير','Omar Bawazir'],goal:'dm',start:95,now:89.4,target:84,last:1,status:'review',water:4,mood:'ok',note:['السكر الصائم صار حوالي 120.','Fasting glucose is now around 120.']},
+ {id:3,n:['لينا الأغبري','Lina Al-Aghbari'],goal:'pcos',start:74,now:70.2,target:66,last:2,status:'active',water:7,mood:'good',note:['أحس بطاقة أكثر.','Feeling more energetic.']},
+ {id:4,n:['هيفاء المقطري','Haifa Al-Maqtari'],goal:'anemia',start:58,now:59.1,target:null,last:1,status:'active',water:8,mood:'good',note:['التعب خفّ بعد إضافة العدس والكبدة.','Less tired since adding lentils and liver.']},
+ {id:5,n:['أحمد العبسي','Ahmed Al-Absi'],goal:'bp',start:101,now:97.3,target:92,last:3,status:'active',water:5,mood:'ok',note:['خففت الملح والمخللات.','Cut down on salt and pickles.']},
+ {id:6,n:['نور السقاف','Nour Al-Saqqaf'],goal:'preg',start:63,now:66,target:null,last:2,status:'active',water:7,mood:'ok',note:['الشهر الخامس، الغثيان خفّ.','Month five, nausea has eased.']},
+ {id:7,n:['عبدالله الشرعبي','Abdullah Al-Sharabi'],goal:'sport',start:70,now:72.4,target:75,last:9,status:'inactive',water:3,mood:'low',note:['سفر هذا الأسبوع.','Travelling this week.']},
+ {id:8,n:['منى الكبسي','Mona Al-Kibsi'],goal:'loss',start:96,now:91.8,target:80,last:12,status:'inactive',water:2,mood:'low',note:['ضغط شغل.','Busy at work.']},
+ {id:9,n:['جنى الصبري','Jana Al-Sabri'],goal:'loss',start:79,now:79,target:70,last:0,status:'active',water:0,mood:'ok',note:['مراجِعة جديدة، أول جلسة اليوم.','New client, first session today.']}];
+const TPLS=[
+ {n:['خسارة وزن 1500','Weight loss 1500'],k:1500,m:[30,40,30],u:11},
+ {n:['صديق لمرضى السكري','Diabetes-friendly'],k:1700,m:[25,40,35],u:5},
+ {n:['فقر الدم','Iron-rich (anaemia)'],k:1900,m:[25,50,25],u:7},
+ {n:['تكيّس المبايض','PCOS balance'],k:1600,m:[30,35,35],u:6},
+ {n:['ضغط الدم (DASH)','Blood pressure (DASH)'],k:1800,m:[20,55,25],u:3},
+ {n:['تغذية الحمل','Pregnancy'],k:2100,m:[20,50,30],u:2}];
+const MEALS=[
+ {t:'08:00',k:'m_breakfast',d:['فول بالطماط، خبز بُر صغير وبيضة مسلوقة','Ful with tomato, small burr (whole-wheat) bread, boiled egg'],c:390},
+ {t:'11:00',k:'m_snack',d:['3 حبات تمر مع كوب لبن قليل الدسم','3 dates with a glass of low-fat laban'],c:180},
+ {t:'14:00',k:'m_lunch',d:['سمك مشوي 150 غ، نصف كوب أرز أسمر، سلطة وحلبة','Grilled fish 150 g, ½ cup brown rice, salad and hulba'],c:540},
+ {t:'17:00',k:'m_snack',d:['قشر بلا سكر وحفنة لوز','Qishr without sugar and a handful of almonds'],c:140},
+ {t:'20:00',k:'m_dinner',d:['شفوت بلبن قليل الدسم ولحوح أسمر','Shafoot with low-fat yogurt and whole-grain lahoh'],c:350}];
+const USER_W=[82,81.3,80.7,79.8,79.2,78.4,77.9,77.1,76.5];
+
+/* ---------- state ---------- */
+const store={get(k,d){try{const v=localStorage.getItem('mt_'+k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem('mt_'+k,JSON.stringify(v))}catch(e){}}};
+const S={lang:store.get('lang','ar'),view:'site',inPerson:store.get('inPerson',CONFIG.inPerson),wa:store.get('wa',CONFIG.whatsapp),
+ sex:'f',goal:-500,loggedIn:true,otpSent:false,pTab:'today',weight:76.5,water:5,mood:'good',photo:null,eaten:[true,true,false,false,false],
+ bType:'online',bDay:1,bTime:null,appts:[{d:3,t:'17:00',type:'online'}],aTab:'overview',filter:'all',q:'',notes:{},open:null};
+const L=a=>Array.isArray(a)?a[S.lang==='ar'?0:1]:a[S.lang];
+const t=(k,v)=>{let s=(T[S.lang][k]??k);if(v)for(const x in v)s=s.replaceAll('{'+x+'}',v[x]);return s};
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const waLink=m=>'https://wa.me/'+S.wa.replace(/\D/g,'')+(m?'?text='+encodeURIComponent(m):'');
+const locale=()=>S.lang==='ar'?'ar-YE-u-nu-latn':'en-GB';
+const TODAY=new Date(2026,9,26);
+const dayDate=i=>{const d=new Date(TODAY);d.setDate(d.getDate()+i);return d};
+const fmtDay=(i,o)=>new Intl.DateTimeFormat(locale(),o).format(dayDate(i));
+const ago=n=>n===0?t('today'):n===1?t('yesterday'):t('days_ago',{n});
+let tt;function toast(m){const el=$('#toast');el.textContent=m;el.hidden=false;clearTimeout(tt);tt=setTimeout(()=>el.hidden=true,2600)}
+const CHECK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+
+/* qamariya (Sana'a arched stained-glass window) mark, generated */
+function qamariya(){
+  const cx=20,cy=21,r=15,cols=['#C98A1A','#F7F6F1','#6A9A35','#F7F6F1','#B9472F','#F7F6F1','#C98A1A'];
+  let s=`<path d="M2 47V21a18 18 0 0 1 36 0v26z" fill="#1F5A3A"/>`;
+  const n=cols.length;
+  for(let i=0;i<n;i++){const a0=Math.PI+i*Math.PI/n,a1=Math.PI+(i+1)*Math.PI/n;
+    s+=`<path d="M${cx} ${cy}L${(cx+r*Math.cos(a0)).toFixed(2)} ${(cy+r*Math.sin(a0)).toFixed(2)}A${r} ${r} 0 0 1 ${(cx+r*Math.cos(a1)).toFixed(2)} ${(cy+r*Math.sin(a1)).toFixed(2)}Z" fill="${cols[i]}" stroke="#1F5A3A" stroke-width="1.1"/>`}
+  s+=`<circle cx="${cx}" cy="${cy}" r="3.2" fill="#1F5A3A"/><rect x="5" y="24" width="30" height="20" fill="#F7F6F1"/><path d="M20 24v20M5 34h30" stroke="#1F5A3A" stroke-width="1.6"/>`;
+  return s;
+}
+function rays(){ // fan used on the calculator arch
+  let s='<svg class="rays" viewBox="0 0 200 100" aria-hidden="true">';const n=9;
+  for(let i=0;i<n;i++){const a0=Math.PI+i*Math.PI/n,a1=Math.PI+(i+1)*Math.PI/n;
+    s+=`<path d="M100 100L${100+90*Math.cos(a0)} ${100+90*Math.sin(a0)}A90 90 0 0 1 ${100+90*Math.cos(a1)} ${100+90*Math.sin(a1)}Z" fill="${['#2A6B47','#245F3F','#C98A1A'][i%3==1?2:i%2]}" opacity="${i%3==1?.55:.9}" stroke="#1F5A3A" stroke-width="2"/>`}
+  return s+'<circle cx="100" cy="100" r="12" fill="#1F5A3A"/></svg>';
+}
+
+/* ---------- chart ---------- */
+function lineChart(ys,o={}){
+  const W=o.w||420,H=o.h||210,p={l:32,r:40,t:18,b:26};
+  const vals=ys.concat(o.goal?[o.goal]:[]);let mn=Math.floor(Math.min(...vals)-1),mx=Math.ceil(Math.max(...vals)+1);
+  const step=(mx-mn)>10?4:2;mn=Math.floor(mn/step)*step;mx=Math.ceil(mx/step)*step;
+  const X=i=>p.l+i*(W-p.l-p.r)/(ys.length-1),Y=v=>p.t+(mx-v)/(mx-mn)*(H-p.t-p.b);
+  let s=`<svg class="chart" viewBox="0 0 ${W} ${H}" role="img">`;
+  for(let v=mn;v<=mx;v+=step)s+=`<line x1="${p.l}" x2="${W-p.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="#E4E6DE"/><text x="${p.l-6}" y="${Y(v)+4}" text-anchor="end">${v}</text>`;
+  ys.forEach((_,i)=>{if(i%2===0||i===ys.length-1)s+=`<text x="${X(i)}" y="${H-6}" text-anchor="middle">${t('p_week_l')}${i+1}</text>`});
+  if(o.goal)s+=`<line x1="${p.l}" x2="${W-p.r}" y1="${Y(o.goal)}" y2="${Y(o.goal)}" stroke="#C98A1A" stroke-dasharray="4 4" stroke-width="1.5"/><text x="${W-p.r+4}" y="${Y(o.goal)+4}" style="fill:#B57911">${o.goal}</text>`;
+  const pts=ys.map((v,i)=>`${X(i).toFixed(1)},${Y(v).toFixed(1)}`);
+  s+=`<defs><linearGradient id="ga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#1F5A3A" stop-opacity=".16"/><stop offset="1" stop-color="#1F5A3A" stop-opacity="0"/></linearGradient></defs>`;
+  s+=`<path d="M${pts.join('L')}L${X(ys.length-1)},${H-p.b}L${p.l},${H-p.b}Z" fill="url(#ga)"/><path d="M${pts.join('L')}" fill="none" stroke="#1F5A3A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>`;
+  const li=ys.length-1;s+=`<circle cx="${X(li)}" cy="${Y(ys[li])}" r="5" fill="#1F5A3A" stroke="#fff" stroke-width="2"/><text x="${X(li)}" y="${Y(ys[li])-11}" text-anchor="middle" style="fill:#1D2A21;font-weight:600">${ys[li]}</text>`;
+  return s+'</svg>';
+}
+function series(c){const n=8,out=[];for(let i=0;i<n;i++){const f=i/(n-1);out.push(+(c.start+(c.now-c.start)*f+(i&&i<n-1?Math.sin(i*1.7+c.id)*.35:0)).toFixed(1))}return out}
+
+/* ---------- public site ---------- */
+function renderSite(){
+  $('#w1').textContent=t('w1');$('#w2').textContent=t('w2');$('#w1').setAttribute('aria-label',t('w1')+' '+t('w2'));
+  $('#ringTxt').innerHTML=t('ring');
+  {const one=CONDS.map(c=>`<b>${esc(L(c))}</b>`).join('');$('#conds').innerHTML=one+one.replace(/<b>/g,'<b aria-hidden="true">');}
+  $('#creds').innerHTML=['cr1','cr2','cr3','cr4'].map(k=>{const [a,b]=T[S.lang][k];return `<div><dt>${a}</dt><dd>${b}</dd></div>`}).join('');
+  $('#storiesList').innerHTML=STORIES.map(s=>`<figure class="story"><div class="res">${esc(L(s.r))}</div><blockquote>${esc(L(s.q))}</blockquote><figcaption>${esc(L(s.n))}</figcaption></figure>`).join('');
+  $('#faqList').innerHTML=FAQ.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(L(q))}</summary><p>${esc(L(a))}</p></details>`).join('');
+  const ip=S.inPerson,row=k=>{const [a,b]=T[S.lang][k];return `<li><span>${a}</span><span class="muted">${b}</span></li>`};
+  $('#types').innerHTML=`
+   <div class="type"><div class="top"><h3>${t('online_t')}</h3><span class="pill ok">${t('available')}</span></div><p>${t('online_d')}</p>
+    <ul>${row('o_l1')}${row('o_l2')}${row('o_l3')}</ul>
+    <div class="act"><a class="btn btn-dark" target="_blank" rel="noopener" href="${waLink(t('wa_msg',{name:'',phone:'',type:t('online_t'),msg:''}))}">${t('book_now')}</a></div></div>
+   <div class="type ${ip?'':'off'}"><div class="top"><h3>${t('inperson_t')}</h3><span class="pill ${ip?'ok':'off'}">${ip?t('available'):t('unavailable')}</span></div><p>${ip?t('inperson_on'):t('inperson_off')}</p>
+    <ul>${row('i_l1')}${row('i_l2')}${row('i_l3')}</ul>
+    <div class="act">${ip?`<a class="btn btn-dark" target="_blank" rel="noopener" href="${waLink(t('inperson_t'))}">${t('book_now')}</a>`:`<a class="link" target="_blank" rel="noopener" href="${waLink(t('notify_me')+': '+t('inperson_t'))}">${t('notify_me')}</a>`}</div></div>`;
+  const sel=$('#k-type'),cur=sel.value;
+  sel.innerHTML=`<option value="online">${t('online_t')}</option><option value="inperson" ${ip?'':'disabled'}>${t('inperson_t')}${ip?'':' · '+t('unavailable')}</option>`;
+  if(cur==='inperson'&&ip)sel.value='inperson';
+  $('#waDisplay').textContent=S.wa;$('#igDisplay').textContent=CONFIG.instagram;
+  $('#clinicStatus').textContent=ip?t('clinic_on'):t('clinic_off');
+  $('#footBrand').textContent='© 2026 '+L(CONFIG.name)+' · '+L(CONFIG.role);
+  $('#heroWa').href=waLink();$('#fab').href=waLink();
+  calc();
+}
+function calc(){
+  const a=+$('#c-age').value||30,w=+$('#c-w').value||70,h=+$('#c-h').value||165,act=+$('#c-act').value;
+  const bmr=Math.round(10*w+6.25*h-5*a+(S.sex==='m'?5:-161)),tdee=Math.round(bmr*act);
+  const target=Math.max(S.sex==='m'?1500:1200,tdee+S.goal);
+  const g=[Math.round(target*.3/4),Math.round(target*.4/4),Math.round(target*.3/9)],n=x=>x.toLocaleString('en');
+  $('#calcResult').innerHTML=`${rays()}<div><div class="lab">${t('r_target')}</div><div class="big num">${n(target)}<small>${t('kcal')}</small></div></div>
+   <div class="pair"><div><div class="lab">${t('r_bmr')}</div><b class="num">${n(bmr)}</b></div><div><div class="lab">${t('r_tdee')}</div><b class="num">${n(tdee)}</b></div></div>
+   <div><div class="lab">${t('r_macros')}</div><div class="macro"><i style="width:30%;background:#A9D07C"></i><i style="width:40%;background:#E7B95A"></i><i style="width:30%;background:#E9EEE4"></i></div>
+   <div class="mleg"><span><i style="background:#A9D07C"></i>${t('protein')} ${g[0]}${t('g')}</span><span><i style="background:#E7B95A"></i>${t('carbs')} ${g[1]}${t('g')}</span><span><i style="background:#E9EEE4"></i>${t('fat')} ${g[2]}${t('g')}</span></div></div>
+   <a class="btn btn-white btn-sm" style="align-self:flex-start" target="_blank" rel="noopener" href="${waLink(t('calc_cta')+': '+target+' '+t('kcal'))}">${t('calc_cta')}</a>`;
+  tweenNum($('#calcResult .big'),calc.prev??target,target);calc.prev=target;
+}
+
+/* ---------- client portal ---------- */
+const ICON={
+ today:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></svg>',
+ plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/></svg>',
+ progress:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l5-5 4 4 8-8"/><path d="M15 8h5v5"/></svg>',
+ appts:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+ cup:'<svg viewBox="0 0 32 40"><path d="M4 4h24l-3 32H7Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M6.5 14h19l-2.1 21H8.6Z" fill="currentColor"/></svg>',
+ cupE:'<svg viewBox="0 0 32 40"><path d="M4 4h24l-3 32H7Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>'};
+function face(k){const m={good:'M11 20q5 5 10 0',ok:'M11 21.5h10',low:'M11 23q5-5 10 0'}[k],c={good:'#1F5A3A',ok:'#B57911',low:'#B9472F'}[k];
+ return `<svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="${c}" stroke-width="2.2"/><circle cx="11.5" cy="13" r="1.7" fill="${c}"/><circle cx="20.5" cy="13" r="1.7" fill="${c}"/><path d="${m}" fill="none" stroke="${c}" stroke-width="2.2" stroke-linecap="round"/></svg>`}
+
+function renderPortal(){
+  const ph=$('#phone');
+  if(!S.loggedIn){
+    ph.innerHTML=`<div class="signin"><svg class="qm" viewBox="0 0 40 48">${qamariya()}</svg><h2>${t('l_title')}</h2><p class="muted">${t('l_sub')}</p>
+     <input id="l-phone" inputmode="tel" value="+967 77 123 4567" aria-label="phone">
+     ${S.otpSent?`<p class="muted" style="font-size:14px">${t('l_code')}</p><div class="otp">${[0,1,2,3].map(i=>`<input id="otp${i}" maxlength="1" inputmode="numeric" aria-label="digit ${i+1}">`).join('')}</div><button class="btn btn-dark" id="l-enter">${t('l_enter')}</button>`:`<button class="btn btn-dark" id="l-send">${t('l_send')}</button>`}
+     <p class="muted" style="font-size:12.5px">${t('l_demo')}</p></div>`;
+    ph.querySelector('#l-send')?.addEventListener('click',()=>{S.otpSent=true;renderPortal();$('#otp0')?.focus()});
+    ph.querySelector('#l-enter')?.addEventListener('click',()=>{S.loggedIn=true;S.otpSent=false;renderPortal()});
+    ph.querySelectorAll('.otp input').forEach((el,i,all)=>el.addEventListener('input',()=>{if(el.value&&all[i+1])all[i+1].focus()}));
+    return;
+  }
+  const next=S.appts.slice().sort((a,b)=>a.d-b.d)[0];let body='';
+  if(S.pTab==='today'){
+    body=`<div class="p-card next-appt"><div><div class="lab">${t('p_next')}</div><b>${fmtDay(next.d,{weekday:'long',day:'numeric',month:'long'})} · ${next.t}</b><div class="lab">${t('p_via')}</div></div><div class="streak"><b class="num">12</b><br><span>${t('p_streak')}</span></div></div>
+    <div class="p-card"><h3>${t('p_weight')}</h3><p class="hint">${t('p_weight_h')}</p><div class="weight-row"><button class="stepper" data-w="-0.1" aria-label="−0.1">−</button><input id="p-weight" type="number" step="0.1" value="${S.weight.toFixed(1)}" aria-label="${t('p_weight')}"><button class="stepper" data-w="0.1" aria-label="+0.1">+</button></div></div>
+    <div class="p-card"><h3>${t('p_water')}</h3><p class="hint">${t('p_water_h')}</p><div class="cups">${Array.from({length:8},(_,i)=>`<button class="cup ${i<S.water?'full':''}" data-cup="${i}" aria-label="${i+1}">${i<S.water?ICON.cup:ICON.cupE}</button>`).join('')}</div><div class="cups-count"><b class="num">${S.water}</b> ${t('p_cups')}</div></div>
+    <div class="p-card"><h3>${t('p_meal')}</h3><p class="hint">${t('p_meal_h')}</p><div class="upload"><label for="p-photo">${t('p_upload')}<input id="p-photo" type="file" accept="image/*"></label>${S.photo?`<img class="thumb" src="${S.photo}" alt="">`:''}</div></div>
+    <div class="p-card"><h3>${t('p_mood')}</h3><div class="moods" style="margin-top:10px">${['good','ok','low'].map(k=>`<button class="mood" data-mood="${k}" aria-pressed="${S.mood===k}">${face(k)}${t('mood_'+k)}</button>`).join('')}</div></div>
+    <div class="p-card"><h3>${t('p_note')}</h3><textarea id="p-note" placeholder="${esc(t('p_note_ph'))}"></textarea></div>
+    <button class="btn btn-dark" id="p-send" style="width:100%;border-radius:12px">${t('p_send')}</button>`;
+  } else if(S.pTab==='plan'){
+    const done=S.eaten.filter(Boolean).length;
+    body=`<div class="p-card"><div class="plan-hero"><img src="img/plate.webp" alt=""><div style="flex:1"><h3>${t('p_plan_t')}</h3><p class="hint" style="margin:0">${t('p_plan_s')}</p><div class="plan-bar"><i style="width:${done*20}%"></i></div><div style="font-size:12.5px;margin-top:4px"><b class="num">${done}/5</b> ${t('p_done')}</div></div></div></div>
+     <div class="p-card">${MEALS.map((m,i)=>`<div class="meal"><span class="time">${m.t}</span><div><h4>${t(m.k)}</h4><p>${esc(L(m.d))}</p><span class="kc num">${m.c} ${t('kcal')}</span></div><button class="check" data-eat="${i}" aria-pressed="${S.eaten[i]}" aria-label="${t(m.k)}">${CHECK}</button></div>`).join('')}</div>
+     <p class="muted" style="font-size:12.5px;text-align:center">${t('p_swap')}</p>`;
+  } else if(S.pTab==='progress'){
+    const s=USER_W[0],n=USER_W.at(-1);
+    body=`<div class="stats4"><div><div class="lab">${t('p_start')}</div><b>${s}</b></div><div><div class="lab">${t('p_now')}</div><b>${n}</b></div><div><div class="lab">${t('p_change')}</div><b style="color:var(--forest)" dir="ltr">${(n-s).toFixed(1)}</b></div><div><div class="lab">${t('p_goal')}</div><b>70</b></div></div>
+     <div class="p-card"><h3>${t('p_chart')}</h3><p class="hint">${t('kg')}</p>${lineChart(USER_W,{goal:70})}</div>`;
+  } else {
+    const ip=S.inPerson,taken=(d,s)=>((d*3+s)%4===0),slots=['10:00','11:00','13:00','16:00','17:30','19:00'];
+    body=`<div class="p-card"><h3>${t('p_upcoming')}</h3>${S.appts.slice().sort((a,b)=>a.d-b.d).map(a=>`<div class="appt-row"><div><b style="color:var(--ink)">${fmtDay(a.d,{weekday:'long',day:'numeric',month:'short'})}</b><div class="muted" style="font-size:13px">${a.t} · ${a.type==='online'?t('p_via'):t('inperson')}</div></div><span class="pill ${a.type==='online'?'ok':'warn'}">${t(a.type)}</span></div>`).join('')}</div>
+     <div class="p-card"><h3 style="margin-bottom:12px">${t('p_book')}</h3>
+      <div class="type-switch"><button data-btype="online" aria-pressed="${S.bType==='online'}">${t('online')}<span class="pill ok">${t('available')}</span></button>
+       <button data-btype="inperson" aria-pressed="${S.bType==='inperson'}" ${ip?'':'disabled'}>${t('inperson')}<span class="pill ${ip?'ok':'off'}">${ip?t('available'):t('unavailable')}</span></button></div>
+      <p class="hint">${t('p_day')}</p><div class="days">${[1,2,3,4,5,6].map(i=>`<button class="day" data-day="${i}" aria-pressed="${S.bDay===i}">${fmtDay(i,{weekday:'short'})}<b class="num">${dayDate(i).getDate()}</b></button>`).join('')}</div>
+      <p class="hint" style="margin-top:14px">${t('p_time')}</p><div class="slots">${slots.map((s,j)=>`<button class="slot" data-time="${s}" aria-pressed="${S.bTime===s}" ${taken(S.bDay,j)?'disabled':''}>${s}</button>`).join('')}</div>
+      <button class="btn btn-dark" id="p-book" style="width:100%;margin-top:16px;border-radius:12px">${t('p_confirm')}</button></div>`;
+  }
+  ph.innerHTML=`<div class="p-top"><div><h2>${t('p_hello')}</h2><div class="sub">${t('p_week')} · ${fmtDay(0,{weekday:'long',day:'numeric',month:'long'})}</div></div><button class="btn btn-line btn-sm" id="p-out" style="border-radius:10px">${t('p_logout')}</button></div>
+   <div class="p-body">${body}</div>
+   <nav class="tabbar">${['today','plan','progress','appts'].map(k=>`<button data-ptab="${k}" aria-current="${S.pTab===k}">${ICON[k]}${t('p_tab_'+k)}</button>`).join('')}</nav>`;
+  ph.querySelector('#p-out').onclick=()=>{S.loggedIn=false;renderPortal()};
+  ph.querySelectorAll('[data-ptab]').forEach(b=>b.onclick=()=>{S.pTab=b.dataset.ptab;renderPortal();ph.scrollIntoView({block:'start'})});
+  ph.querySelectorAll('[data-w]').forEach(b=>b.onclick=()=>{S.weight=Math.round((S.weight+ +b.dataset.w)*10)/10;$('#p-weight').value=S.weight.toFixed(1)});
+  ph.querySelector('#p-weight')?.addEventListener('input',e=>S.weight=+e.target.value||S.weight);
+  ph.querySelectorAll('[data-cup]').forEach(b=>b.onclick=()=>{const i=+b.dataset.cup;S.water=(S.water===i+1)?i:i+1;renderPortal()});
+  ph.querySelectorAll('[data-mood]').forEach(b=>b.onclick=()=>{S.mood=b.dataset.mood;ph.querySelectorAll('[data-mood]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
+  ph.querySelector('#p-photo')?.addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{S.photo=r.result;renderPortal()};r.readAsDataURL(f)});
+  ph.querySelector('#p-send')?.addEventListener('click',()=>{const c=CLIENTS[0];c.now=S.weight;c.water=S.water;c.mood=S.mood;const n=$('#p-note').value.trim();if(n)c.note=[n,n];c.last=0;c.status='review';toast(t('p_sent'))});
+  ph.querySelectorAll('[data-eat]').forEach(b=>b.onclick=()=>{const i=+b.dataset.eat;S.eaten[i]=!S.eaten[i];renderPortal()});
+  ph.querySelectorAll('[data-btype]').forEach(b=>b.onclick=()=>{S.bType=b.dataset.btype;renderPortal()});
+  ph.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{S.bDay=+b.dataset.day;S.bTime=null;renderPortal()});
+  ph.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>{S.bTime=b.dataset.time;renderPortal()});
+  ph.querySelector('#p-book')?.addEventListener('click',()=>{if(S.bType==='inperson'&&!S.inPerson)return toast(t('p_inp_off'));if(!S.bTime)return toast(t('p_pick_both'));S.appts.push({d:S.bDay,t:S.bTime,type:S.bType});S.bTime=null;toast(t('p_booked'));renderPortal()});
+}
+
+/* ---------- dashboard ---------- */
+const AICON={
+ overview:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>',
+ clients:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><path d="M16 4a4 4 0 0 1 0 8M22 21c0-3-2-5.5-4.5-6.5"/></svg>',
+ plans:ICON.plan,appts:ICON.appts,
+ settings:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>'};
+const statusPill=s=>`<span class="pill ${s==='active'?'ok':s==='review'?'warn':'idle'}">${t('s_'+s)}</span>`;
+const goalName=g=>t('goal_'+g);
+const avatar=c=>`<span class="av" style="background:${['#1F5A3A','#6B4429','#5C8A30'][c.id%3]}">${esc(L(c.n)[0])}</span>`;
+const delta=c=>{const d=+(c.now-c.start).toFixed(1),good=(['sport','preg','anemia'].includes(c.goal))?d>0:d<0;return `<span class="delta num ${good?'good':''}" dir="ltr">${d>0?'+':''}${d} ${t('kg')}</span>`};
+const SCHED=[{t:'10:00',c:1,k:'follow'},{t:'13:30',c:2,k:'follow'},{t:'17:00',c:9,k:'first'}];
+const WEEK=[[0,SCHED],[1,[{t:'11:00',c:3,k:'follow'},{t:'16:00',c:6,k:'follow'}]],[2,[{t:'10:00',c:5,k:'follow'}]],[3,[{t:'17:00',c:1,k:'follow'},{t:'19:00',c:4,k:'follow'}]],[4,[{t:'13:00',c:7,k:'follow'}]]];
+
+function renderAdmin(){
+  const review=CLIENTS.filter(c=>c.status==='review').length;
+  $('#side').innerHTML=`<div class="who"><span class="av">${S.lang==='ar'?'م':'M'}</span><div><b>${esc(L(CONFIG.name))}</b><span>${esc(L(CONFIG.role))}</span></div></div>`+
+   ['overview','file','clients','plans','appts','settings'].map(k=>`<button data-atab="${k}" aria-current="${S.aTab===k}">${AICON[k]}${t('a_'+k)}${k==='clients'&&review?`<span class="count num">${review}</span>`:''}</button>`).join('');
+  $('#side').querySelectorAll('[data-atab]').forEach(b=>b.onclick=()=>{S.aTab=b.dataset.atab;renderAdmin()});
+  const M=$('#adminMain');let h='';
+  if(S.aTab==='overview'){
+    const quiet=CLIENTS.filter(c=>c.last>=7);
+    h=`<div><h2>${t('a_greet')}${S.lang==='ar'?'، د. مروى':', Dr. Marwa'}</h2><p class="muted">${t('a_sub')}</p><button class="btn btn-dark btn-sm" data-newfile style="margin-top:14px">${ft('new_btn')}</button></div>
+    <div class="stat-row"><div class="stat"><div class="lab">${t('st_active')}</div><b>${CLIENTS.filter(c=>c.status!=='inactive').length}</b></div><div class="stat warn"><div class="lab">${t('st_review')}</div><b>${review}</b></div><div class="stat"><div class="lab">${t('st_today')}</div><b>${SCHED.length}</b></div><div class="stat alert"><div class="lab">${t('st_inactive')}</div><b>${quiet.length}</b></div></div>
+    <div class="two"><div class="panel"><div class="panel-h"><h3>${t('a_attention')}</h3></div>
+      ${CLIENTS.filter(c=>c.status==='review').map(c=>`<div class="q-item">${avatar(c)}<div><span class="name">${esc(L(c.n))}</span> <span class="pill warn" style="margin-inline-start:6px">${t('q_new')}</span><p>${esc(L(c.note))}</p></div><button class="btn btn-line btn-sm" data-open="${c.id}">${t('a_review')}</button></div>`).join('')}
+      ${quiet.map(c=>`<div class="q-item">${avatar(c)}<div><span class="name">${esc(L(c.n))}</span><p>${t('q_quiet',{n:c.last})}</p></div><a class="btn btn-line btn-sm" target="_blank" rel="noopener" data-remind="${c.id}" href="${waLink(S.lang==='ar'?`أهلاً ${L(c.n).split(' ')[0]}، افتقدنا تسجيلك الأسبوعي. كيف كان أسبوعك؟`:`Hi ${L(c.n).split(' ')[0]}, we missed your weekly check-in. How was your week?`)}">${t('a_remind')}</a></div>`).join('')}
+    </div>
+    <div class="panel"><div class="panel-h"><h3>${t('a_schedule')}</h3><span class="pill ok">${t('online')}</span></div>
+      ${SCHED.map(s=>{const c=CLIENTS.find(x=>x.id===s.c);return `<div class="sched"><span class="t">${s.t}</span><div><b>${esc(L(c.n))}</b><p>${t(s.k)} · ${goalName(c.goal)}</p></div></div>`}).join('')}
+    </div></div>`;
+  } else if(S.aTab==='clients'){
+    const list=CLIENTS.filter(c=>(S.filter==='all'||c.status===S.filter)&&(!S.q||(c.n[0]+' '+c.n[1]).toLowerCase().includes(S.q.toLowerCase())));
+    h=`<div><h2>${t('a_clients')}</h2></div>
+    <div class="toolbar"><input id="a-search" type="search" placeholder="${t('search')}" value="${esc(S.q)}"><div class="chips">${['all','active','review','inactive'].map(f=>`<button class="chip" data-filter="${f}" aria-pressed="${S.filter===f}">${f==='all'?t('f_all'):t('s_'+f)}</button>`).join('')}</div></div>
+    <div class="tbl-wrap"><table><thead><tr><th>${t('th_client')}</th><th>${t('th_goal')}</th><th>${t('th_progress')}</th><th>${t('th_last')}</th><th>${t('th_status')}</th></tr></thead><tbody>
+    ${list.map(c=>`<tr data-open="${c.id}" tabindex="0"><td><div class="cl">${avatar(c)}<b>${esc(L(c.n))}</b></div></td><td>${goalName(c.goal)}</td><td>${delta(c)}</td><td>${ago(c.last)}</td><td>${statusPill(c.status)}</td></tr>`).join('')}
+    </tbody></table></div>`;
+  } else if(S.aTab==='plans'){
+    h=`<div class="panel-h" style="margin:0"><div><h2>${t('a_plans')}</h2><p class="muted">${t('plans_sub')}</p></div><button class="btn btn-dark btn-sm">+ ${t('new_tpl')}</button></div>
+    <div class="templates">${TPLS.map((p,i)=>`<div class="tpl"><h3>${esc(L(p.n))}</h3><div class="kcal num">${p.k}<small> ${t('kcal')}</small></div>
+     <div><div class="macro"><i style="width:${p.m[0]}%;background:#1F5A3A"></i><i style="width:${p.m[1]}%;background:#E2B357"></i><i style="width:${p.m[2]}%;background:#B8C9A8"></i></div>
+     <div class="mleg" style="color:var(--muted);font-size:12.5px"><span><i style="background:#1F5A3A"></i>${t('protein')} ${p.m[0]}%</span><span><i style="background:#E2B357"></i>${t('carbs')} ${p.m[1]}%</span><span><i style="background:#B8C9A8"></i>${t('fat')} ${p.m[2]}%</span></div></div>
+     <span class="muted" style="font-size:12.5px">${t('used',{n:p.u})}</span>
+     <div class="row"><select id="tpl-sel-${i}" aria-label="${t('assign_to')}"><option value="">${t('assign_to')}</option>${CLIENTS.map(c=>`<option value="${c.id}">${esc(L(c.n))}</option>`).join('')}</select><button class="btn btn-dark btn-sm" data-assign="${i}">${t('send')}</button></div></div>`).join('')}</div>`;
+  } else if(S.aTab==='file'){
+    h=fileView();
+  } else if(S.aTab==='appts'){
+    h=`<div><h2>${t('a_appts')}</h2><p class="muted">${S.inPerson?'':t('appts_sub')}</p></div>
+    ${WEEK.map(([d,arr])=>`<div class="panel"><div class="panel-h"><h3>${fmtDay(d,{weekday:'long',day:'numeric',month:'long'})}</h3><span class="muted num">${arr.length}</span></div>
+      ${arr.map(s=>{const c=CLIENTS.find(x=>x.id===s.c);return `<div class="sched"><span class="t">${s.t}</span><div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><div><b>${esc(L(c.n))}</b><p>${t(s.k)} · ${t('p_via')}</p></div><button class="btn btn-line btn-sm" data-open="${c.id}">${t('a_review')}</button></div></div>`}).join('')}</div>`).join('')}`;
+  } else {
+    h=`<div><h2>${t('a_settings')}</h2></div>
+    <div class="panel">
+      <div class="setting"><div><h3>${t('set_inperson')} <span class="pill ${S.inPerson?'ok':'off'}" style="margin-inline-start:6px;vertical-align:middle">${S.inPerson?t('on'):t('off')}</span></h3><p>${t('set_inperson_d')}</p></div><button class="switch" role="switch" id="sw-inperson" aria-checked="${S.inPerson}" aria-label="${t('set_inperson')}"></button></div>
+      <div class="setting"><div><h3>${t('set_wa')}</h3><p>${t('set_wa_d')}</p></div><input id="set-wa" value="${esc(S.wa)}" aria-label="${t('set_wa')}"></div>
+      <div class="setting"><div><h3>${t('set_lang')}</h3><p>${t('set_lang_d')}</p></div><span class="pill ok">العربية</span></div>
+    </div>`;
+  }
+  M.innerHTML=h;M.classList.toggle('is-file',S.aTab==='file');if(S.aTab==='file')wireFile(M);
+  M.querySelector('[data-newfile]')?.addEventListener('click',()=>{S.file=blankFile();persist();S.aTab='file';S.ftab='assess';renderAdmin();$('#f-name')?.focus()});
+  M.querySelectorAll('[data-open]').forEach(el=>{el.onclick=()=>openClient(+el.dataset.open);el.onkeydown=e=>{if(e.key==='Enter')openClient(+el.dataset.open)}});
+  M.querySelectorAll('[data-remind]').forEach(a=>a.addEventListener('click',()=>toast(t('reminder',{name:L(CLIENTS.find(c=>c.id==a.dataset.remind).n)}))));
+  M.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{S.filter=b.dataset.filter;renderAdmin()});
+  const sr=M.querySelector('#a-search');if(sr)sr.oninput=e=>{S.q=e.target.value;const pos=e.target.selectionStart;renderAdmin();const n=$('#a-search');n.focus();n.setSelectionRange(pos,pos)};
+  M.querySelectorAll('[data-assign]').forEach(b=>b.onclick=()=>{const v=$('#tpl-sel-'+b.dataset.assign).value;if(!v)return toast(t('assign_to'));TPLS[+b.dataset.assign].u++;toast(t('plan_sent',{name:L(CLIENTS.find(c=>c.id==v).n)}));renderAdmin()});
+  M.querySelector('#sw-inperson')?.addEventListener('click',()=>{S.inPerson=!S.inPerson;store.set('inPerson',S.inPerson);toast(S.inPerson?t('inp_on_toast'):t('inp_off_toast'));if(!S.inPerson)S.bType='online';renderSite();renderAdmin()});
+  M.querySelector('#set-wa')?.addEventListener('change',e=>{S.wa=e.target.value.trim()||CONFIG.whatsapp;store.set('wa',S.wa);renderSite()});
+}
+function openClient(id){
+  S.open=id;const c=CLIENTS.find(x=>x.id===id);
+  $('#drawerRoot').innerHTML=`<div class="scrim" id="scrim"></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${esc(L(c.n))}">
+   <div class="hd"><div class="cl">${avatar(c)}<div><h3>${esc(L(c.n))}</h3><span class="muted" style="font-size:13px">${goalName(c.goal)} · ${statusPill(c.status)}</span></div></div><button class="btn btn-line btn-sm" id="d-close">${t('close')}</button></div>
+   <div class="kv"><div><div class="lab">${t('p_start')}</div><b>${c.start}</b></div><div><div class="lab">${t('p_now')}</div><b>${c.now}</b></div><div><div class="lab">${t('p_goal')}</div><b>${c.target??'—'}</b></div></div>
+   <div class="panel" style="padding:12px">${lineChart(c.id===1?USER_W:series(c),{goal:c.target,h:190})}</div>
+   <div><h4 style="font-size:20px;margin-bottom:8px">${t('d_latest')} · <span class="muted" style="font-family:var(--f-body);font-size:14px;font-weight:400">${ago(c.last)}</span></h4>
+    <div class="kv" style="grid-template-columns:1fr 1fr;margin-bottom:10px"><div><div class="lab">${t('d_water')}</div><b>${c.water}/8</b></div><div style="display:flex;align-items:center;gap:8px"><span style="width:26px;display:block">${face(c.mood)}</span><div><div class="lab">${t('d_mood')}</div><b style="font-size:19px">${t('mood_'+c.mood)}</b></div></div></div>
+    <div class="quote">${esc(L(c.note))}</div></div>
+   <div><label for="d-notes" style="font-size:14px;font-weight:600;color:var(--ink)">${t('d_notes')}</label><textarea id="d-notes" style="margin-top:6px">${esc(S.notes[id]||'')}</textarea><button class="btn btn-line btn-sm" id="d-save" style="margin-top:6px">${t('d_save')}</button></div>
+   <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-dark btn-sm" id="d-file">${ft('open_file')}</button><button class="btn btn-line btn-sm" id="d-plan">${t('d_send_plan')}</button><a class="btn btn-line btn-sm" target="_blank" rel="noopener" href="${waLink()}">${t('d_wa')}</a></div></aside>`;
+  const close=()=>{$('#drawerRoot').innerHTML='';S.open=null;if(c.status==='review'){c.status='active';renderAdmin()}};
+  $('#scrim').onclick=close;$('#d-close').onclick=close;$('#d-close').focus();
+  document.addEventListener('keydown',function k(e){if(e.key==='Escape'){close();document.removeEventListener('keydown',k)}});
+  $('#d-save').onclick=()=>{S.notes[id]=$('#d-notes').value;toast(t('d_saved'))};
+  $('#d-plan').onclick=()=>{close();S.aTab='plans';renderAdmin()};
+  $('#d-file').onclick=()=>{close();openFileFor(id)};
+}
+
+/* ---------- patient file: the doctor's intake + plan form ---------- */
+const FT={
+ar:{label:'ملف المراجِع',new_title:'ملف جديد',sub:'التقييم، الحالة الصحية، الخطة والمتابعة في مكان واحد.',complete:'اكتمال الملف',
+t_assess:'التقييم',t_health:'الحالة الصحية',t_plan:'الخطة',t_follow:'المتابعة',
+p_basic:'البيانات الأساسية',p_meas:'القياسات',p_res:'النتائج المحسوبة',p_cond:'الأمراض والأدوية',p_labs:'التحاليل',p_hab:'العادات اليومية',p_targets:'السعرات والعناصر',p_meals:'وجبات اليوم',p_tips:'توصيات الأخصائية',p_next:'الموعد القادم',p_log:'سجل الوزن',
+name:'اسم المراجِع',phone:'رقم الجوال',age:'العمر',sex:'الجنس',city:'المدينة',job:'العمل',w:'الوزن الحالي',h:'الطول',waist:'محيط الخصر',hip:'محيط الورك',fat:'نسبة الدهون',tw:'الوزن المستهدف',act:'مستوى النشاط',goal:'الهدف',
+g_loss:'خسارة وزن',g_keep:'محافظة',g_gain:'زيادة وزن',
+bmi:'مؤشر كتلة الجسم',bmr:'الأيض الأساسي',tdee:'الاحتياج اليومي',whr:'نسبة الخصر للورك',sugg:'السعرات المقترحة',togo:'المتبقي للهدف',
+b_under:'نقص وزن',b_norm:'طبيعي',b_over:'زيادة وزن',b_obese:'سمنة',whr_ok:'ضمن الطبيعي',whr_hi:'خطر مرتفع',
+need:'أكملي الوزن والطول والعمر',preg_note:'لا عجز في السعرات أثناء الحمل أو الرضاعة',
+cond:'الأمراض المزمنة والحالات',allerg:'الحساسية وعدم التحمّل',meds:'الأدوية والمكمّلات',meds_ph:'مثال: ميتفورمين 500 ملغ مرتين يومياً، حديد',none:'لا يوجد',
+labs_note:'قيم مرجعية تقريبية للبالغين، والقرار السريري للأخصائية.',lab_date:'تاريخ التحاليل',labDate:'تاريخ التحاليل',next:'تاريخ الموعد',tips:'التوصيات',low:'منخفض',high:'مرتفع',normal:'طبيعي',
+meals_n:'عدد الوجبات',water:'الماء (أكواب)',sleep:'النوم (ساعات)',qat:'القات',smoke:'التدخين',sugar:'سكر الشاي (ملاعق يومياً)',out:'الأكل خارج البيت',hnotes:'ملاحظات عن النمط اليومي',hnotes_ph:'مثال: تتغدّى متأخر بسبب الدوام، تحب الحلويات بعد العشاء',
+q_no:'لا',q_some:'أحياناً',q_daily:'يومياً',s_no:'لا',s_cig:'سجائر',s_shisha:'شيشة',o_rare:'نادراً',o_week:'أسبوعياً',o_daily:'يومياً',
+tpl:'قالب الخطة',tpl_custom:'مخصّصة',kcal:'السعرات اليومية',use_sugg:'استخدمي المقترح',p:'بروتين',c:'كربوهيدرات',f:'دهون',sum:'المجموع',sum_bad:'المجموع يجب أن يكون 100%',
+meal_ph:'اكتبي مكوّنات الوجبة والكميات',fill:'تعبئة بنموذج يمني',total:'مجموع الوجبات',of:'من',tips_ph:'مثال: قلّلي السكر في الشاي تدريجياً، وامشي 20 دقيقة بعد الغداء.',send_portal:'إرسال الخطة لبوابة المراجِع',sent_portal:'وصلت الخطة لبوابة {name}',
+date:'التاريخ',time:'الوقت',type:'نوع الموعد',freq:'تكرار المتابعة',f_week:'أسبوعياً',f_2w:'كل أسبوعين',f_month:'شهرياً',add:'إضافة',log_empty:'لا توجد قراءات بعد. أضيفي أول وزن.',
+save:'حفظ الملف',newf:'ملف جديد',newf_sure:'تأكيد: ملف جديد؟',copy:'نسخ الملخص',wa:'إرسال للمراجِع',saved:'تم حفظ ملف {name}',need_name:'أدخلي اسم المراجِع أولاً',need_phone:'أضيفي رقم جوال المراجِع',copied:'تم نسخ الملخص',copy_fail:'تعذّر النسخ من المتصفح',cleared:'ملف جديد جاهز',
+open_file:'فتح الملف',new_btn:'+ ملف جديد',
+s_file:'ملف',s_age:'العمر',s_w:'الوزن',s_h:'الطول',s_goal:'الهدف',s_tw:'الوزن المستهدف',s_kcal:'السعرات اليومية',s_meals:'الوجبات',s_tips:'توصيات',s_next:'الموعد القادم',s_hello:'أهلاً {name}، هذه خطتك من د. مروى ثابت:'},
+en:{label:'Client file',new_title:'New file',sub:'Assessment, health, plan and follow-up in one place.',complete:'File complete',
+t_assess:'Assessment',t_health:'Health',t_plan:'Plan',t_follow:'Follow-up',
+p_basic:'Basic details',p_meas:'Measurements',p_res:'Calculated results',p_cond:'Conditions & medication',p_labs:'Lab results',p_hab:'Daily habits',p_targets:'Calories & macros',p_meals:"Today's meals",p_tips:"Nutritionist's advice",p_next:'Next appointment',p_log:'Weight log',
+name:'Client name',phone:'Mobile number',age:'Age',sex:'Sex',city:'City',job:'Occupation',w:'Current weight',h:'Height',waist:'Waist',hip:'Hip',fat:'Body fat',tw:'Target weight',act:'Activity level',goal:'Goal',
+g_loss:'Lose weight',g_keep:'Maintain',g_gain:'Gain weight',
+bmi:'BMI',bmr:'BMR',tdee:'Daily need',whr:'Waist-to-hip',sugg:'Suggested calories',togo:'Left to target',
+b_under:'Underweight',b_norm:'Normal',b_over:'Overweight',b_obese:'Obesity',whr_ok:'Normal range',whr_hi:'Higher risk',
+need:'Fill in weight, height and age',preg_note:'No calorie deficit during pregnancy or breastfeeding',
+cond:'Chronic conditions',allerg:'Allergies & intolerances',meds:'Medication & supplements',meds_ph:'e.g. Metformin 500 mg twice daily, iron',none:'None',
+labs_note:'Approximate adult reference ranges; clinical judgement is the nutritionist’s.',lab_date:'Lab date',labDate:'Lab date',next:'Appointment date',tips:'Advice',low:'Low',high:'High',normal:'Normal',
+meals_n:'Meals per day',water:'Water (glasses)',sleep:'Sleep (hours)',qat:'Qat',smoke:'Smoking',sugar:'Sugar in tea (spoons/day)',out:'Eating out',hnotes:'Notes on daily routine',hnotes_ph:'e.g. late lunch because of work, sweets after dinner',
+q_no:'No',q_some:'Sometimes',q_daily:'Daily',s_no:'No',s_cig:'Cigarettes',s_shisha:'Shisha',o_rare:'Rarely',o_week:'Weekly',o_daily:'Daily',
+tpl:'Plan template',tpl_custom:'Custom',kcal:'Daily calories',use_sugg:'Use suggested',p:'Protein',c:'Carbs',f:'Fat',sum:'Total',sum_bad:'Total must be 100%',
+meal_ph:'Write the foods and portions',fill:'Fill with a Yemeni sample',total:'Meals total',of:'of',tips_ph:'e.g. Cut sugar in tea gradually and walk 20 minutes after lunch.',send_portal:'Send plan to client portal',sent_portal:"Plan sent to {name}'s portal",
+date:'Date',time:'Time',type:'Appointment type',freq:'Follow-up frequency',f_week:'Weekly',f_2w:'Every 2 weeks',f_month:'Monthly',add:'Add',log_empty:'No readings yet. Add the first weight.',
+save:'Save file',newf:'New file',newf_sure:'Confirm: new file?',copy:'Copy summary',wa:'Send to client',saved:"Saved {name}'s file",need_name:"Enter the client's name first",need_phone:"Add the client's mobile number",copied:'Summary copied',copy_fail:"The browser didn't allow copying",cleared:'New file ready',
+open_file:'Open file',new_btn:'+ New file',
+s_file:'File',s_age:'Age',s_w:'Weight',s_h:'Height',s_goal:'Goal',s_tw:'Target weight',s_kcal:'Daily calories',s_meals:'Meals',s_tips:'Advice',s_next:'Next appointment',s_hello:'Hi {name}, here is your plan from Dr. Marwa Thabet:'}};
+const ft=(k,v)=>{let s=FT[S.lang][k]??k;if(v)for(const x in v)s=s.replaceAll('{'+x+'}',v[x]);return s};
+T.ar.a_file='ملف المراجِع';T.en.a_file='Client file';T.ar.goal_keep='محافظة';T.en.goal_keep='Maintain';T.ar.goal_gain='زيادة وزن';T.en.goal_gain='Weight gain';
+const COND=[['none'],['dm2','السكري (النوع ٢)','Type 2 diabetes'],['predm','ما قبل السكري','Prediabetes'],['bp','ضغط الدم','Hypertension'],['chol','الكوليسترول','High cholesterol'],['anemia','فقر الدم','Anaemia'],['pcos','تكيّس المبايض','PCOS'],['thyroid','الغدة الدرقية','Thyroid'],['ibs','القولون العصبي','IBS'],['gerd','ارتجاع المريء','Reflux'],['kidney','الكلى','Kidney disease'],['preg','حمل','Pregnancy'],['bf','رضاعة','Breastfeeding']];
+const ALLERG=[['none'],['gluten','الغلوتين','Gluten'],['lactose','اللاكتوز','Lactose'],['nuts','المكسرات','Nuts'],['egg','البيض','Eggs'],['sea','المأكولات البحرية','Seafood']];
+const LABS=[
+ {k:'hba1c',n:['السكر التراكمي HbA1c','HbA1c'],u:'%',lo:4,hi:5.6},
+ {k:'fbg',n:['السكر الصائم','Fasting glucose'],u:'mg/dL',lo:70,hi:99},
+ {k:'hb',n:['الهيموغلوبين','Haemoglobin'],u:'g/dL',lo:s=>s==='m'?13.5:12,hi:s=>s==='m'?17.5:15.5},
+ {k:'ferritin',n:['الفيريتين (مخزون الحديد)','Ferritin'],u:'ng/mL',lo:s=>s==='m'?24:12,hi:s=>s==='m'?336:150},
+ {k:'vitd',n:['فيتامين د','Vitamin D'],u:'ng/mL',lo:30,hi:100},
+ {k:'b12',n:['فيتامين ب١٢','Vitamin B12'],u:'pg/mL',lo:200,hi:900},
+ {k:'tsh',n:['هرمون الغدة TSH','TSH'],u:'mIU/L',lo:.4,hi:4},
+ {k:'ldl',n:['الكوليسترول الضار LDL','LDL cholesterol'],u:'mg/dL',lo:0,hi:99},
+ {k:'tg',n:['الدهون الثلاثية','Triglycerides'],u:'mg/dL',lo:0,hi:149}];
+const SLOTS=[{t:'08:00',k:'m_breakfast'},{t:'11:00',k:'m_snack'},{t:'14:00',k:'m_lunch'},{t:'17:00',k:'m_snack'},{t:'20:00',k:'m_dinner'}];
+const FICON={
+ assess:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 10h6M9 14h6M9 18h3"/></svg>',
+ health:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/><path d="M8 12h2l1.2-2 1.6 4 1.2-2h2"/></svg>',
+ plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="13" r="7"/><circle cx="12" cy="13" r="3.5"/><path d="M4 4v5M2.5 4v3M5.5 4v3M20 4c-1.5 1-2 2.5-2 5h2"/></svg>',
+ follow:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 15l2.5 2.5L16 13"/></svg>',
+ save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h11l3 3v13H5z"/><path d="M8 4v5h7V4M8 20v-6h8v6"/></svg>',
+ newf:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h8l4 4v14H6z"/><path d="M12 10v7M8.5 13.5h7"/></svg>',
+ copy:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2"/></svg>',
+ wa:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4 5.2 5.2 0 0 0 3.1.6 2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3Z"/></svg>'};
+AICON.file=FICON.assess;
+
+function blankFile(){return {cid:null,name:'',phone:'',age:'',sex:'f',city:'',job:'',w:'',h:'',waist:'',hip:'',fat:'',tw:'',act:'1.375',goal:'loss',
+ cond:[],allerg:[],meds:'',labDate:'',labs:{},meals_n:'3',water:'',sleep:'',qat:'no',smoke:'no',sugar:'',out:'week',hnotes:'',
+ tpl:'',kcal:'',p:30,c:40,f:30,meals:SLOTS.map(s=>({t:s.t,k:s.k,d:'',c:''})),tips:'',next:'',time:'17:00',type:'online',freq:'week',log:[]}}
+function sampleFile(){const f=blankFile();Object.assign(f,{cid:1,name:'سارة العولقي',phone:'+967 77 123 4567',age:'29',sex:'f',city:'صنعاء',job:'معلّمة',
+ w:'76.5',h:'162',waist:'88',hip:'104',fat:'34',tw:'70',act:'1.375',goal:'loss',cond:['pcos'],allerg:['none'],meds:'ميتفورمين 500 ملغ مرة يومياً',
+ labDate:'2026-10-12',labs:{hba1c:'5.5',hb:'11.4',ferritin:'9',vitd:'18',tsh:'2.1'},meals_n:'3',water:'5',sleep:'6',qat:'some',smoke:'no',sugar:'4',out:'week',
+ hnotes:'تتغدّى متأخر بسبب الدوام، وتحب الحلا بعد العشاء.',tpl:'3',kcal:'1600',p:30,c:35,f:35,
+ meals:SLOTS.map((s,i)=>({t:s.t,k:s.k,d:MEALS[i].d[0],c:String(MEALS[i].c)})),
+ tips:'قلّلي السكر في الشاي تدريجياً، وامشي 20 دقيقة بعد الغداء. أضيفي العدس والكبدة مرتين أسبوعياً مع عصير ليمون لدعم الحديد.',
+ next:'2026-10-29',time:'17:00',type:'online',freq:'week',
+ log:[{d:'2026-08-31',w:82},{d:'2026-09-14',w:80.7},{d:'2026-09-28',w:79.2},{d:'2026-10-12',w:77.9},{d:'2026-10-26',w:76.5}]});return f}
+S.file=store.get('curFile',null)||sampleFile();S.files=store.get('files',{});S.ftab='assess';
+let fSaveT;const persist=()=>{clearTimeout(fSaveT);fSaveT=setTimeout(()=>store.set('curFile',S.file),300)};
+
+function calcFile(f){const w=+f.w,h=+f.h,a=+f.age,r={};
+  if(w&&h)r.bmi=w/((h/100)**2);
+  if(w&&h&&a){r.bmr=10*w+6.25*h-5*a+(f.sex==='m'?5:-161);r.tdee=r.bmr*(+f.act);
+    r.preg=f.cond.includes('preg')||f.cond.includes('bf');const adj=r.preg?0:{loss:-500,keep:0,gain:300}[f.goal];
+    r.sugg=Math.max(f.sex==='m'?1500:1200,Math.round((r.tdee+adj)/50)*50)}
+  if(+f.waist&&+f.hip)r.whr=f.waist/f.hip;
+  if(w&&+f.tw)r.togo=w-f.tw;
+  return r}
+const n0=x=>Math.round(x).toLocaleString('en'),n1=x=>(Math.round(x*10)/10).toLocaleString('en');
+
+/* field builders */
+const fv=k=>esc(S.file[k]??'');
+const fIn=(k,o={})=>`<div class="ff${o.full?' full':''}"><label for="f-${k}">${ft(k)}</label>${o.unit?`<div class="fu"><input id="f-${k}" data-k="${k}" type="${o.type||'text'}" ${o.num?'inputmode="decimal"':''} value="${fv(k)}" ${o.dir?`dir="${o.dir}"`:''} placeholder="${o.ph||''}"><span>${o.unit}</span></div>`:`<input id="f-${k}" data-k="${k}" type="${o.type||'text'}" ${o.num?'inputmode="decimal"':''} value="${fv(k)}" ${o.dir?`dir="${o.dir}"`:''} placeholder="${o.ph||''}">`}</div>`;
+const fSel=(k,opts,o={})=>`<div class="ff${o.full?' full':''}"><label for="f-${k}">${ft(k)}</label><select id="f-${k}" data-k="${k}">${opts.map(([v,l])=>`<option value="${v}" ${String(S.file[k])===String(v)?'selected':''}>${l}</option>`).join('')}</select></div>`;
+const fSeg=(k,opts,o={})=>`<div class="ff${o.full?' full':''}"><span class="lbl">${ft(k)}</span><div class="fseg" role="group">${opts.map(([v,l,dis])=>`<button type="button" data-seg="${k}" data-v="${v}" aria-pressed="${S.file[k]===v}" ${dis?'disabled':''}>${l}</button>`).join('')}</div></div>`;
+const fTa=(k,o={})=>`<div class="ff full"><label for="f-${k}">${ft(k)}</label><textarea id="f-${k}" data-k="${k}" placeholder="${esc(o.ph||'')}">${fv(k)}</textarea></div>`;
+const panel=(title,body,o={})=>`<section class="fpanel${o.cls?' '+o.cls:''}"><h3>${title}</h3>${body}</section>`;
+const chips=(key,list)=>`<div class="fchips">${list.map(([v,ar,en])=>`<button type="button" data-chip="${key}" data-v="${v}" aria-pressed="${S.file[key].includes(v)}">${v==='none'?ft('none'):(S.lang==='ar'?ar:en)}</button>`).join('')}</div>`;
+
+function resTiles(){const f=S.file,r=calcFile(f);
+  if(!r.bmi&&!r.bmr)return `<p class="muted fneed">${ft('need')}</p>`;
+  const bc=r.bmi<18.5?['b_under','warn']:r.bmi<25?['b_norm','ok']:r.bmi<30?['b_over','warn']:['b_obese','off'];
+  const whrHi=r.whr&&r.whr>=(f.sex==='m'?.9:.85);
+  const tile=(lab,val,unit,pill)=>`<div class="ftile"><span class="lab">${lab}</span><b class="num">${val}</b><small>${unit||''}</small>${pill||''}</div>`;
+  return `<div class="ftiles">
+   ${r.bmi?tile(ft('bmi'),n1(r.bmi),'kg/m²',`<span class="pill ${bc[1]}">${ft(bc[0])}</span>`):''}
+   ${r.sugg?tile(ft('sugg'),n0(r.sugg),t('kcal'),r.preg?`<span class="pill warn">${ft('preg_note')}</span>`:''):''}
+   ${r.bmr?tile(ft('bmr'),n0(r.bmr),t('kcal')):''}
+   ${r.tdee?tile(ft('tdee'),n0(r.tdee),t('kcal')):''}
+   ${r.whr?tile(ft('whr'),r.whr.toFixed(2),'',`<span class="pill ${whrHi?'off':'ok'}">${ft(whrHi?'whr_hi':'whr_ok')}</span>`):''}
+   ${r.togo!=null?tile(ft('togo'),n1(Math.abs(r.togo)),t('kg')):''}
+  </div>`}
+
+function fAssess(){const ACT=[['1.2',t('act1')],['1.375',t('act2')],['1.55',t('act3')],['1.725',t('act4')]];
+  return panel(ft('p_basic'),`<div class="fgrid">${fIn('name',{full:true})}${fIn('phone',{dir:'ltr',ph:'+967'})}${fIn('age',{num:true,unit:S.lang==='ar'?'سنة':'yrs'})}${fSeg('sex',[['f',t('female')],['m',t('male')]])}${fIn('city')}${fIn('job',{full:false})}</div>`)+
+   panel(ft('p_meas'),`<div class="fgrid g3">${fIn('w',{num:true,unit:t('kg')})}${fIn('h',{num:true,unit:S.lang==='ar'?'سم':'cm'})}${fIn('tw',{num:true,unit:t('kg')})}${fIn('waist',{num:true,unit:S.lang==='ar'?'سم':'cm'})}${fIn('hip',{num:true,unit:S.lang==='ar'?'سم':'cm'})}${fIn('fat',{num:true,unit:'%'})}</div>
+    <div class="fgrid">${fSel('act',ACT)}${fSeg('goal',[['loss',ft('g_loss')],['keep',ft('g_keep')],['gain',ft('g_gain')]])}</div>`)+
+   panel(ft('p_res'),`<div id="fres">${resTiles()}</div>`,{cls:'fres'})}
+
+function labRow(L0){const v=S.file.labs[L0.k]??'';return `<div class="flab"><label for="lab-${L0.k}">${S.lang==='ar'?L0.n[0]:L0.n[1]}</label><div class="fu"><input id="lab-${L0.k}" data-lab="${L0.k}" inputmode="decimal" value="${esc(v)}" dir="ltr"><span>${L0.u}</span></div><span class="fstat" id="ls-${L0.k}">${labPill(L0,v)}</span></div>`}
+function labPill(L0,v){if(v===''||isNaN(+v))return '';const sx=S.file.sex,lo=typeof L0.lo==='function'?L0.lo(sx):L0.lo,hi=typeof L0.hi==='function'?L0.hi(sx):L0.hi;
+  return +v<lo?`<span class="pill warn">${ft('low')}</span>`:+v>hi?`<span class="pill off">${ft('high')}</span>`:`<span class="pill ok">${ft('normal')}</span>`}
+function fHealth(){
+  return panel(ft('p_cond'),`<span class="lbl">${ft('cond')}</span>${chips('cond',COND)}<span class="lbl" style="margin-top:18px">${ft('allerg')}</span>${chips('allerg',ALLERG)}<div class="fgrid" style="margin-top:18px">${fTa('meds',{ph:ft('meds_ph')})}</div>`)+
+   panel(ft('p_labs'),`<div class="fgrid" style="margin-bottom:8px">${fIn('labDate',{type:'date'})}</div><div class="flabs">${LABS.map(labRow).join('')}</div><p class="fnote">${ft('labs_note')}</p>`)+
+   panel(ft('p_hab'),`<div class="fgrid g3">${fSel('meals_n',[1,2,3,4,5,6].map(x=>[String(x),String(x)]))}${fIn('water',{num:true})}${fIn('sleep',{num:true})}${fIn('sugar',{num:true})}</div>
+    <div class="fgrid g3">${fSeg('qat',[['no',ft('q_no')],['some',ft('q_some')],['daily',ft('q_daily')]])}${fSeg('smoke',[['no',ft('s_no')],['cig',ft('s_cig')],['shisha',ft('s_shisha')]])}${fSeg('out',[['rare',ft('o_rare')],['week',ft('o_week')],['daily',ft('o_daily')]])}</div>
+    <div class="fgrid">${fTa('hnotes',{ph:ft('hnotes_ph')})}</div>`)}
+
+function macroBlock(){const f=S.file,k=+f.kcal||0,sum=(+f.p)+(+f.c)+(+f.f);
+  const row=(m,div,col)=>`<div class="fmac"><label for="f-${m}"><i style="background:${col}"></i>${ft(m)}</label><input type="range" id="f-${m}" data-mac="${m}" min="5" max="70" step="5" value="${f[m]}"><b class="num"><span id="mp-${m}">${f[m]}</span>%</b><small class="num" id="mg-${m}">${k?Math.round(k*f[m]/100/div):'–'} ${t('g')}</small></div>`;
+  return `${row('p',4,'#1F5A3A')}${row('c',4,'#E2B357')}${row('f',9,'#B8C9A8')}<div class="fsum ${sum===100?'':'bad'}" id="fsum">${ft('sum')}: <b class="num">${sum}%</b>${sum===100?'':' · '+ft('sum_bad')}</div>`}
+function mealTotal(){const f=S.file,tot=f.meals.reduce((a,m)=>a+(+m.c||0),0),k=+f.kcal||0,p=k?Math.min(100,tot/k*100):0;
+  return `<div class="ftot"><span>${ft('total')}: <b class="num">${n0(tot)}</b> ${ft('of')} <b class="num">${k?n0(k):'–'}</b> ${t('kcal')}</span><i><u style="width:${p}%;background:${tot>k*1.05&&k?'var(--tomato)':'var(--forest)'}"></u></i></div>`}
+function fPlan(){const f=S.file,r=calcFile(f);
+  return panel(ft('p_targets'),`<div class="fgrid">${fSel('tpl',[['',ft('tpl_custom')],...TPLS.map((p,i)=>[String(i),L(p.n)+' · '+p.k])])}
+     <div class="ff"><label for="f-kcal">${ft('kcal')}</label><div class="fu"><input id="f-kcal" data-k="kcal" inputmode="numeric" value="${fv('kcal')}"><span>${t('kcal')}</span></div>${r.sugg?`<button type="button" class="link fsugg" id="useSugg">${ft('use_sugg')} (${n0(r.sugg)})</button>`:''}</div></div>
+     <div class="fmacs" id="fmacs">${macroBlock()}</div>`)+
+   panel(ft('p_meals'),`<div class="fmeals">${f.meals.map((m,i)=>`<div class="fmeal"><div class="fmeal-h"><input type="time" data-meal="${i}" data-mk="t" value="${esc(m.t)}" aria-label="${t(m.k)} ${ft('time')}"><b>${t(m.k)}</b><div class="fu kc"><input data-meal="${i}" data-mk="c" inputmode="numeric" value="${esc(m.c)}" aria-label="${t('kcal')}"><span>${t('kcal')}</span></div></div><textarea data-meal="${i}" data-mk="d" placeholder="${ft('meal_ph')}" aria-label="${t(m.k)}">${esc(m.d)}</textarea></div>`).join('')}</div>
+     <div id="ftot">${mealTotal()}</div><button type="button" class="link" id="fillMeals" style="margin-top:12px">${ft('fill')}</button>`)+
+   panel(ft('p_tips'),`<div class="fgrid">${fTa('tips',{ph:ft('tips_ph')})}</div><button type="button" class="btn btn-dark btn-sm" id="sendPortal">${ft('send_portal')}</button>`)}
+
+function fFollow(){const f=S.file,ip=S.inPerson,slots=['10:00','11:00','13:00','16:00','17:00','17:30','19:00'];
+  const log=f.log.slice().sort((a,b)=>a.d<b.d?-1:1);
+  return panel(ft('p_next'),`<div class="fgrid">${fIn('next',{type:'date'})}${fSel('time',slots.map(s=>[s,s]))}
+     ${fSeg('type',[['online',t('online')],['inperson',t('inperson')+(ip?'':' · '+t('unavailable')),!ip]])}${fSel('freq',[['week',ft('f_week')],['2w',ft('f_2w')],['month',ft('f_month')]])}</div>`)+
+   panel(ft('p_log'),`<div class="flogadd"><div class="ff"><label for="lg-d">${ft('date')}</label><input type="date" id="lg-d" value="2026-10-26"></div><div class="ff"><label for="lg-w">${ft('w')}</label><div class="fu"><input id="lg-w" inputmode="decimal" dir="ltr"><span>${t('kg')}</span></div></div><button type="button" class="btn btn-dark btn-sm" id="lgAdd">${ft('add')}</button></div>
+     ${log.length?`<div class="flog">${log.length>1?`<div class="fchart">${lineChart(log.map(x=>+x.w),{goal:+f.tw||null,w:760,h:230})}</div>`:''}<table class="ftable"><tbody>${log.slice().reverse().map((x,i,arr)=>{const prev=arr[i+1];const d=prev?(x.w-prev.w):null;
+        return `<tr><td class="num">${new Intl.DateTimeFormat(locale(),{day:'numeric',month:'short',year:'numeric'}).format(new Date(x.d))}</td><td class="num"><b>${x.w}</b> ${t('kg')}</td><td class="num" dir="ltr">${d==null?'':`<span class="${d<=0?'dn':'up'}">${d>0?'+':''}${d.toFixed(1)}</span>`}</td><td><button type="button" class="fx" data-del="${x.d}|${x.w}" aria-label="×">×</button></td></tr>`}).join('')}</tbody></table></div>`:`<p class="muted">${ft('log_empty')}</p>`}`)}
+
+function fileView(){const f=S.file;
+  return `<div class="fhead"><div><span class="label">${ft('label')}</span><h2>${f.name?esc(f.name):ft('new_title')}</h2><p class="muted">${ft('sub')}</p></div>
+   <div class="fprog"><span>${ft('complete')}</span><b class="num" id="fpct"></b><i><u id="fbar"></u></i></div></div>
+   <div class="ftabs" role="tablist">${['assess','health','plan','follow'].map(k=>`<button role="tab" data-ftab="${k}" aria-selected="${S.ftab===k}">${FICON[k]}<span>${ft('t_'+k)}</span></button>`).join('')}</div>
+   <div class="fbody">${({assess:fAssess,health:fHealth,plan:fPlan,follow:fFollow})[S.ftab]()}</div>
+   <div class="fbar"><button class="btn btn-dark" id="fSave">${FICON.save}<span>${ft('save')}</span></button><button class="btn btn-line" id="fNew">${FICON.newf}<span>${ft('newf')}</span></button><button class="btn btn-line" id="fCopy">${FICON.copy}<span>${ft('copy')}</span></button><button class="btn btn-line" id="fWa">${FICON.wa}<span>${ft('wa')}</span></button></div>`}
+
+function fProgress(){const f=S.file,checks=[f.name,f.phone,f.age,f.w,f.h,f.waist,f.tw,f.cond.length,f.allerg.length,Object.values(f.labs).some(v=>v!==''),f.water,f.kcal,f.meals.some(m=>m.d.trim()),f.next,f.log.length];
+  const p=Math.round(checks.filter(Boolean).length/checks.length*100);const b=$('#fpct'),u=$('#fbar');if(b)b.textContent=p+'%';if(u)u.style.width=p+'%'}
+function fRefresh(){const r=$('#fres');if(r)r.innerHTML=resTiles();const m=$('#fmacs');if(m&&!m.contains(document.activeElement))m.innerHTML=macroBlock();const tt=$('#ftot');if(tt)tt.innerHTML=mealTotal();
+  const h=$('.fhead h2');if(h)h.textContent=S.file.name||ft('new_title');fProgress()}
+
+function mapGoal(f){const c=f.cond;return c.includes('preg')?'preg':c.includes('dm2')||c.includes('predm')?'dm':c.includes('pcos')?'pcos':c.includes('anemia')?'anemia':c.includes('bp')?'bp':({loss:'loss',keep:'keep',gain:'gain'})[f.goal]}
+function fSummary(forClient){const f=S.file,r=calcFile(f),k=+f.kcal,L1=[];
+  if(forClient)L1.push(ft('s_hello',{name:(f.name||'').split(' ')[0]}));else L1.push(`${ft('s_file')}: ${f.name||'—'}`);
+  if(!forClient)L1.push(`${ft('s_age')} ${f.age||'—'} · ${ft('s_w')} ${f.w||'—'} ${t('kg')} · ${ft('s_h')} ${f.h||'—'} ${S.lang==='ar'?'سم':'cm'}${r.bmi?' · BMI '+n1(r.bmi):''}`);
+  L1.push(`${ft('s_goal')}: ${goalName(mapGoal(f))}${f.tw?` · ${ft('s_tw')} ${f.tw} ${t('kg')}`:''}`);
+  if(k)L1.push(`${ft('s_kcal')}: ${n0(k)} (${ft('p')} ${Math.round(k*f.p/400)}${t('g')} · ${ft('c')} ${Math.round(k*f.c/400)}${t('g')} · ${ft('f')} ${Math.round(k*f.f/900)}${t('g')})`);
+  const ms=f.meals.filter(m=>m.d.trim());if(ms.length){L1.push('',ft('s_meals')+':');ms.forEach(m=>L1.push(`• ${m.t} ${t(m.k)}: ${m.d}${m.c?` (${m.c} ${t('kcal')})`:''}`))}
+  if(f.tips.trim())L1.push('',`${ft('s_tips')}: ${f.tips}`);
+  if(f.next)L1.push('',`${ft('s_next')}: ${new Intl.DateTimeFormat(locale(),{weekday:'long',day:'numeric',month:'long'}).format(new Date(f.next))} · ${f.time} (${t(f.type)})`);
+  return L1.join('\n')}
+
+function saveFile(){const f=S.file;if(!f.name.trim()){toast(ft('need_name'));S.ftab='assess';renderAdmin();$('#f-name')?.focus();return}
+  let c=f.cid!=null?CLIENTS.find(x=>x.id===f.cid):null;
+  const log=f.log.slice().sort((a,b)=>a.d<b.d?-1:1),start=log.length?+log[0].w:+f.w,now=+f.w||(log.length?+log.at(-1).w:0);
+  if(!c){c={id:Math.max(...CLIENTS.map(x=>x.id))+1,n:[f.name,f.name],goal:'loss',start,now,target:null,last:0,status:'active',water:0,mood:'ok',note:['','']};CLIENTS.push(c);f.cid=c.id}
+  Object.assign(c,{n:[f.name,f.name],goal:mapGoal(f),start:start||c.start,now:now||c.now,target:+f.tw||null,water:+f.water||c.water,note:f.hnotes?[f.hnotes,f.hnotes]:c.note});
+  S.files[f.cid]=JSON.parse(JSON.stringify(f));store.set('files',S.files);store.set('curFile',f);toast(ft('saved',{name:f.name}));renderAdmin()}
+function openFileFor(cid){const c=CLIENTS.find(x=>x.id===cid);let f=S.files[cid]?JSON.parse(JSON.stringify(S.files[cid])):(cid===1?sampleFile():null);
+  if(!f){f=blankFile();Object.assign(f,{cid,name:L(c.n),w:String(c.now),tw:c.target?String(c.target):'',hnotes:L(c.note),log:[{d:'2026-09-01',w:c.start},{d:'2026-10-26',w:c.now}],goal:c.goal==='sport'||c.goal==='anemia'?'gain':'loss',
+    cond:({dm:['dm2'],pcos:['pcos'],anemia:['anemia'],bp:['bp'],preg:['preg']})[c.goal]||[]})}
+  S.file=f;persist();S.aTab='file';S.ftab='assess';renderAdmin();scrollTo(0,0)}
+
+let newArm=0;
+function wireFile(M){
+  M.querySelectorAll('[data-ftab]').forEach(b=>b.onclick=()=>{S.ftab=b.dataset.ftab;renderAdmin();$('.ftabs')?.scrollIntoView({block:'nearest'})});
+  M.querySelectorAll('[data-k]').forEach(el=>el.addEventListener('input',()=>{S.file[el.dataset.k]=el.value;persist();
+    if(el.dataset.k==='tpl'){const p=TPLS[+el.value];if(el.value!==''&&p){Object.assign(S.file,{kcal:String(p.k),p:p.m[0],c:p.m[1],f:p.m[2]});persist();renderAdmin();return}}
+    if(el.dataset.k==='kcal'){S.file.tpl=''}
+    fRefresh()}));
+  M.querySelectorAll('[data-seg]').forEach(b=>b.onclick=()=>{S.file[b.dataset.seg]=b.dataset.v;persist();M.querySelectorAll(`[data-seg="${b.dataset.seg}"]`).forEach(x=>x.setAttribute('aria-pressed',x===b));
+    if(b.dataset.seg==='sex')M.querySelectorAll('[data-lab]').forEach(i=>{const L0=LABS.find(l=>l.k===i.dataset.lab);$('#ls-'+L0.k).innerHTML=labPill(L0,i.value)});fRefresh()});
+  M.querySelectorAll('[data-chip]').forEach(b=>b.onclick=()=>{const key=b.dataset.chip,v=b.dataset.v;let arr=S.file[key];
+    arr=arr.includes(v)?arr.filter(x=>x!==v):(v==='none'?['none']:[...arr.filter(x=>x!=='none'),v]);S.file[key]=arr;persist();
+    M.querySelectorAll(`[data-chip="${key}"]`).forEach(x=>x.setAttribute('aria-pressed',arr.includes(x.dataset.v)));fRefresh()});
+  M.querySelectorAll('[data-lab]').forEach(i=>i.addEventListener('input',()=>{const k=i.dataset.lab;S.file.labs[k]=i.value;persist();$('#ls-'+k).innerHTML=labPill(LABS.find(l=>l.k===k),i.value);fProgress()}));
+  M.querySelector('.fbody').addEventListener('input',e=>{const el=e.target;
+    if(el.dataset.mac){S.file[el.dataset.mac]=+el.value;S.file.tpl='';persist();const k=+S.file.kcal||0,sum=S.file.p+S.file.c+S.file.f;
+      $('#mp-'+el.dataset.mac).textContent=el.value;['p','c','f'].forEach(m=>$('#mg-'+m).textContent=(k?Math.round(k*S.file[m]/100/(m==='f'?9:4)):'–')+' '+t('g'));
+      const s=$('#fsum');s.className='fsum'+(sum===100?'':' bad');s.innerHTML=`${ft('sum')}: <b class="num">${sum}%</b>${sum===100?'':' · '+ft('sum_bad')}`;const tp=$('#f-tpl');if(tp)tp.value=''}
+    if(el.dataset.meal!=null){S.file.meals[+el.dataset.meal][el.dataset.mk]=el.value;persist();$('#ftot').innerHTML=mealTotal();fProgress()}});
+  $('#useSugg')?.addEventListener('click',()=>{S.file.kcal=String(calcFile(S.file).sugg);S.file.tpl='';persist();renderAdmin()});
+  $('#fillMeals')?.addEventListener('click',()=>{S.file.meals=SLOTS.map((s,i)=>({t:s.t,k:s.k,d:L(MEALS[i].d),c:String(MEALS[i].c)}));persist();renderAdmin()});
+  $('#sendPortal')?.addEventListener('click',()=>toast(ft('sent_portal',{name:S.file.name||'—'})));
+  $('#lgAdd')?.addEventListener('click',()=>{const d=$('#lg-d').value,w=+$('#lg-w').value;if(!d||!w){$('#lg-w').focus();return}
+    S.file.log=S.file.log.filter(x=>x.d!==d).concat({d,w});S.file.w=String(S.file.log.slice().sort((a,b)=>a.d<b.d?-1:1).at(-1).w);persist();renderAdmin()});
+  M.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{const [d,w]=b.dataset.del.split('|');S.file.log=S.file.log.filter(x=>!(x.d===d&&String(x.w)===w));persist();renderAdmin()});
+  $('#fSave').onclick=saveFile;
+  $('#fNew').onclick=()=>{const b=$('#fNew span');if(Date.now()-newArm<3000){S.file=blankFile();persist();S.ftab='assess';newArm=0;renderAdmin();toast(ft('cleared'));$('#f-name')?.focus();return}
+    newArm=Date.now();b.textContent=ft('newf_sure');setTimeout(()=>{if(b.isConnected)b.textContent=ft('newf')},3000)};
+  $('#fCopy').onclick=()=>{const txt=fSummary(false);(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast(ft('copied'))).catch(()=>toast(ft('copy_fail')))};
+  $('#fWa').onclick=()=>{const d=(S.file.phone||'').replace(/\D/g,'');if(d.length<8){toast(ft('need_phone'));S.ftab='assess';renderAdmin();$('#f-phone')?.focus();return}
+    const a=document.createElement('a');a.href='https://wa.me/'+d+'?text='+encodeURIComponent(fSummary(true));a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove()};
+  fProgress();
+}
+
+
+/* ---------- shell ---------- */
+function setView(v){S.view=v;['site','portal','admin'].forEach(x=>$('#view-'+x).hidden=x!==v);$('#appHead').hidden=v==='site';
+  $$('.seg [data-view]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===v));
+  if(v==='portal')renderPortal();if(v==='admin')renderAdmin();window.scrollTo(0,0);
+  try{history.replaceState(null,'',v==='site'?location.pathname:'#'+(v==='admin'?'dashboard':'portal'))}catch(e){}}
+function applyLang(){
+  document.documentElement.lang=S.lang;document.documentElement.dir=S.lang==='ar'?'rtl':'ltr';
+  $$('[data-t]').forEach(el=>el.textContent=t(el.dataset.t));
+  $$('.brandName').forEach(el=>el.textContent=L(CONFIG.name));$$('.brandSub').forEach(el=>el.textContent=L(CONFIG.role));
+  $$('.steps .n').forEach((el,i)=>el.textContent=S.lang==='ar'?'١٢٣٤'[i]:'0'+(i+1));
+  renderSite();if(S.view==='portal')renderPortal();if(S.view==='admin')renderAdmin();if(S.open)openClient(S.open);
+}
+$$('svg.qm').forEach(s=>s.innerHTML=qamariya());
+$$('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
+$$('[data-go]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.go).scrollIntoView({behavior:'smooth'})));
+$$('[data-home]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();setView('site')}));
+$$('[data-lang]').forEach(b=>b.onclick=()=>{S.lang=S.lang==='ar'?'en':'ar';store.set('lang',S.lang);applyLang()});
+$('#calcForm').addEventListener('submit',e=>e.preventDefault());
+['#c-age','#c-w','#c-h','#c-act'].forEach(s=>$(s).addEventListener('input',calc));
+[['#c-sex','sex'],['#c-goal','goal']].forEach(([sel,key])=>$(sel).querySelectorAll('button').forEach(b=>b.onclick=()=>{$(sel).querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));S[key]=key==='goal'?+b.dataset.v:b.dataset.v;calc()}));
+$('#contactForm').addEventListener('submit',e=>{e.preventDefault();
+  const type=$('#k-type').value==='inperson'?t('inperson_t'):t('online_t');
+  const msg=t('wa_msg',{name:$('#k-name').value.trim()||'—',phone:$('#k-phone').value.trim()||'—',type,msg:$('#k-msg').value.trim()||'—'});
+  $('#waText').textContent=msg;$('#waOpen').href=waLink(msg);$('#waOut').hidden=false});
+$('#waCopy').onclick=()=>{const txt=$('#waText').textContent;(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast(t('copied'))).catch(()=>{const r=document.createRange();r.selectNodeContents($('#waText'));const s=getSelection();s.removeAllRanges();s.addRange(r)})};
+
+applyLang();
+setView(location.hash==='#dashboard'?'admin':location.hash==='#portal'?'portal':'site');
+/* ---------- motion ---------- */
+const RM=matchMedia('(prefers-reduced-motion: reduce)');
+function tweenNum(el,from,to){
+  if(from===to||!el||RM.matches)return;const node=el.firstChild,t0=performance.now(),D=520;
+  (function f(now){const k=Math.min(1,(now-t0)/D),e=1-Math.pow(1-k,3);node.nodeValue=Math.round(from+(to-from)*e).toLocaleString('en');if(k<1)requestAnimationFrame(f)})(t0);
+}
+(function motion(){
+  const hero=$('.hero'),produce=$('.hero .produce'),w1=$('.lead-block'),w2=$('.word.w2');
+  const floaties=[...$$('.floaty')],arch=$('.arch'),archImg=$('.arch img'),steps=$('.steps');
+  let mx=0,my=0,cx=0,cy=0;
+  hero.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const r=hero.getBoundingClientRect();mx=(e.clientX-r.left)/r.width*2-1;my=(e.clientY-r.top)/r.height*2-1});
+  hero.addEventListener('pointerleave',()=>{mx=0;my=0});
+  // reveal: only elements that start below the first screen
+  const rvSel='.head-row,.portion,.type,.story,.feat li,.cred,.pillars li,.faq details,.info-item,.cform,.steps li';
+  const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}}),{rootMargin:'0px 0px -8% 0px'});
+  const groups=new Map();
+  $$(rvSel).forEach(el=>{if(RM.matches)return;if(el.getBoundingClientRect().top<innerHeight)return;
+    const g=el.parentElement;const i=groups.get(g)||0;groups.set(g,i+1);el.style.setProperty('--i',Math.min(i,5));el.setAttribute('data-rv','');io.observe(el)});
+  // callouts pop when plate is seen
+  new IntersectionObserver((es,o)=>es.forEach(en=>{if(en.isIntersecting){arch.classList.add('in');o.disconnect()}}),{threshold:.35}).observe(arch);
+  // rows point at the plate
+  $$('.portion').forEach(p=>{const on=()=>{arch.classList.add('dim');$('.call.'+p.dataset.call).classList.add('hot')},off=()=>{arch.classList.remove('dim');$$('.call.hot').forEach(c=>c.classList.remove('hot'))};
+    p.addEventListener('mouseenter',on);p.addEventListener('mouseleave',off);p.addEventListener('focus',on);p.addEventListener('blur',off)});
+  function frame(){
+    if(S.view==='site'&&!RM.matches){
+      cx+=(mx-cx)*.08;cy+=(my-cy)*.08;const vh=innerHeight,sy=scrollY;
+      if(produce)produce.style.translate=`${(-cx*18).toFixed(2)}px ${(-cy*12+sy*.12).toFixed(2)}px`;
+      if(w1)w1.style.translate=`${(cx*8).toFixed(2)}px ${(cy*5).toFixed(2)}px`;
+      if(w2)w2.style.translate=`${(cx*12).toFixed(2)}px ${(cy*7-sy*.05).toFixed(2)}px`;
+      for(const f of floaties){const d=+f.dataset.depth,sec=f.parentElement.closest('section')||f.parentElement,r=sec.getBoundingClientRect();
+        if(r.bottom<-200||r.top>vh+200)continue;const off=(r.top+r.height/2-vh/2)*d*.18;const inHero=sec===hero;
+        f.style.translate=`${inHero?(-cx*30*d).toFixed(2):0}px ${(off+(inHero?-cy*22*d:0)).toFixed(2)}px`}
+      if(archImg){const r=arch.getBoundingClientRect();if(r.bottom>0&&r.top<vh){const p=Math.min(1,Math.max(0,(vh-r.top)/(vh+r.height)));archImg.style.rotate=((p-.5)*60).toFixed(2)+'deg'}}
+      if(steps){const r=steps.getBoundingClientRect();const p=Math.min(1,Math.max(0,(vh*.85-r.top)/(vh*.6)));steps.style.setProperty('--p',p.toFixed(3));
+        steps.querySelectorAll('li').forEach((li,i)=>li.classList.toggle('lit',p>=(i+.5)/4))}
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+
+</script>
+
+</body>
+</html>
